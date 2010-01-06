@@ -20,24 +20,10 @@
 ***************************************************************/
 
 /**
- * Extension main file for project extension
- *
- * @package		Todoyu
- * @subpackage	Project
+ * Configure panel widgets to be shown in Profile area
  */
 
-	// Declare ext ID, path
-define('EXTID_PROFILE', 126);
-define('PATH_EXT_PROFILE', PATH_EXT . '/profile');
-
-	// Register module locales
-TodoyuLocale::register('profile', PATH_EXT_PROFILE . '/locale/ext.xml');
-TodoyuLocale::register('panelwidget-profilemodules', PATH_EXT_PROFILE . '/locale/panelwidget-profilemodules.xml');
-
-	// Request configurations
-
-require_once( PATH_EXT_PROFILE . '/config/extension.php' );
-require_once( PATH_EXT_PROFILE . '/config/panelwidgets.php' );
-
+	// add default panel widgets
+TodoyuPanelWidgetManager::addDefaultPanelWidget('profile', 'TodoyuPanelWidgetProfileModules', 10);
 
 ?>

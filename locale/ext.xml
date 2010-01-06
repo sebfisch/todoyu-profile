@@ -4,6 +4,7 @@
 		<label index="ext.title">Usersettings</label>
 		<label index="page.title">My Profile</label>
 		<label index="tab.label">My Settings</label>
+		<label index="general.main.language">Language</label>
 	</labels>
 	<labels lang="de">
 		<label index="ext.title">Benutzereinstellungen</label>
