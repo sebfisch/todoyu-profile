@@ -17,6 +17,10 @@ Todoyu.Ext.profile = {
 	
 	onModuleLoaded: function(module, response) {
 		
+	},
+	
+	setContent: function(content) {
+		$('profile-content').update(content);
 	}
 	
 };

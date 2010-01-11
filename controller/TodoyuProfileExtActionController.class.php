@@ -28,7 +28,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 		TodoyuPage::setTitle($title);
 
 		$panelWidgets	= TodoyuProfileRenderer::renderPanelWidgets();
-		$content		= TodoyuProfileRenderer::renderContent($module);
+		$content		= TodoyuProfileRenderer::renderContent($module, $params);
 
 		TodoyuPage::set('panelWidgets', $panelWidgets);
 		TodoyuPage::set('content', $content);
@@ -40,7 +40,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 	public function moduleAction(array $params) {
 		$module	= $params['module'];
 
-		return TodoyuProfileRenderer::renderContent($module);
+		return TodoyuProfileRenderer::renderContent($module, $params);
 	}
 
 }

@@ -23,6 +23,14 @@ $CONFIG['EXT']['profile']['generalTabs'] = array(
 
 
 
+TodoyuProfileManager::addModule('general', array(
+	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
+	'content'	=> 'TodoyuProfileGeneralRenderer::renderContent',
+	'label'		=> 'profile.module.general'
+));
+
+
+
 
 
 

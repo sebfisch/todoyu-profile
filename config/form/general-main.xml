@@ -22,5 +22,15 @@
 			</elements>
 		</fieldset>
 
+		<fieldset name="buttons">
+			<legend>Actions</legend>
+			<class>buttons</class>
+			<elements>
+				<field type="saveButton" name="save">
+					<onclick>Todoyu.Ext.profile.General.saveMain(this.form)</onclick>
+				</field>
+			</elements>
+		</fieldset>
+
 	</fieldsets>
 </form>

@@ -65,26 +65,14 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 	public function renderContent() {
 		$content = '';
 
-		$content = 'test';
-
-//		$modules	= TodoyuprofileManager::getModules();
-//		$active		= TodoyuprofilePreferences::getActiveModule();
-//
-//		if(!$active)	{
-//			$active = current($modules);
-//			$active = $active['key'];
-//		}
-//
-//		$data		= array(
-//			'active'	=> $active,
-//			'modules'	=> $modules
-//		);
-//
-//		$content	= render('ext/profile/view/panelwidget-profilemodules.tmpl', $data);
-//
+		$modules	= TodoyuProfileManager::getModules();
+		$active		= TodoyuProfilePreferences::getActiveModule();
 
 		$tmpl	= 'ext/profile/view/panelwidget-profilemodules.tmpl';
-		$data	= array();
+		$data	= array(
+			'active'	=> $active,
+			'modules'	=> $modules
+		);
 
 		$content= render($tmpl, $data);
 

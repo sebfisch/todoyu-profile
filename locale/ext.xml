@@ -4,7 +4,18 @@
 		<label index="ext.title">Usersettings</label>
 		<label index="page.title">My Profile</label>
 		<label index="tab.label">My Settings</label>
+		<label index="module.general">General Settings</label>
+		<label index="general.main.tab">Main</label>
 		<label index="general.main.language">Language</label>
+		<label index="general.main.saved">Settings saved</label>
+		<label index="general.password.current">Current password</label>
+		<label index="general.password.current.empty">You have to enter your old password to change it</label>
+		<label index="general.password.current.wrong">The old password you entered is incorrect</label>
+		<label index="general.password.new1">New password</label>
+		<label index="general.password.new2">Repeat password</label>
+		<label index="general.password.error">Can't change password</label>
+		<label index="general.password.success">Password changed</label>
+		<label index="general.password.notEqual">New password was not repeated correctly</label>
 	</labels>
 	<labels lang="de">
 		<label index="ext.title">Benutzereinstellungen</label>
