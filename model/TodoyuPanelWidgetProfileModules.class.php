@@ -26,7 +26,6 @@
  * @package		Todoyu
  * @subpackage	profile
  */
-
 class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements TodoyuPanelWidgetIf {
 
 
@@ -98,7 +97,7 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 
 
 	public static function isAllowed() {
-		return allowed('profile', 'panelwidget.profilemodules');
+		return allowed('profile', 'panelwidgets.profilemodules');
 	}
 
 }
