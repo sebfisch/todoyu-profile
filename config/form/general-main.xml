@@ -9,7 +9,7 @@
 
 		<fieldset name="left">
 			<legend>Left form column</legend>
-			<class>left noneFloatingInput</class>
+			<class>left</class>
 			<elements>
 
 				<field type="select" name="language">

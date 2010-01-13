@@ -20,22 +20,19 @@
 ***************************************************************/
 
 /**
- * profile modules panel widget
+ * Panelwidget: Profile modules
  *
- * @name 		profile renderer
  * @package		Todoyu
- * @subpackage	profile
+ * @subpackage	Profile
  */
 class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements TodoyuPanelWidgetIf {
 
-
 	/**
-	 * profile modules panel widget constructor
+	 * Init
 	 *
-	 * @param	array	$config
-	 * @param	array	$params
-	 * @param	Integer	$idArea
-	 * @param	Boolean $expanded
+	 * @param	Array		$config
+	 * @param	Array		$params
+	 * @param	Integer		$idArea
 	 */
 	public function __construct(array $config, array $params = array(), $idArea = 0) {
 		$idArea	= intval($idArea);

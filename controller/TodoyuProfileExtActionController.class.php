@@ -54,7 +54,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 			// Add project assets
 		TodoyuPage::addExtAssets('profile', 'public');
 
-		$title	= Todoyu::user()->getFullName();
+		$title	= Label('profile.page.title') . ' - ' . Todoyu::user()->getFullName();
 
 		TodoyuPage::setTitle($title);
 
