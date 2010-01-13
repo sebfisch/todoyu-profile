@@ -1,7 +1,20 @@
+/**
+ * General area in profile
+ */
 Todoyu.Ext.profile.General = {
 	
+	/**
+	 * Shortcut to extension namespace
+	 */
 	ext: Todoyu.Ext.profile,
 	
+	
+	
+	/**
+	 * Handler for tabs in general area
+	 * @param	Event		event
+	 * @param	String		tabKey
+	 */
 	onTabClick: function(event, tabKey) {
 		this.loadTab(tabKey);
 	},
@@ -35,6 +48,8 @@ Todoyu.Ext.profile.General = {
 	
 	onMainSaved: function(response) {
 		Todoyu.notifySuccess('[LLL:profile.general.main.saved]');
+		
+		setTimeout('location.reload()', 1000)
 	},
 	
 	savePassword: function(form) {
