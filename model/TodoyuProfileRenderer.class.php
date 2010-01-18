@@ -48,16 +48,22 @@ class TodoyuProfileRenderer {
 	public static function renderContent($module, array $params) {
 		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
 
-		$tabs		= TodoyuDiv::callUserFunction($moduleConf['tabs'], $params);
-		$content	= TodoyuDiv::callUserFunction($moduleConf['content'], $params);
+		return TodoyuDiv::callUserFunction($moduleConf['content'], $params);
 
 		$tmpl		= 'ext/profile/view/module.tmpl';
 		$data		= array(
-			'tabs'		=> $tabs,
+//			'tabs'		=> $tabs,
 			'content'	=> $content
 		);
 
 		return render($tmpl, $data);
+	}
+
+
+	public static function renderTabs($module, array $params = array()) {
+		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
+
+		return TodoyuDiv::callUserFunction($moduleConf['tabs'], $params);
 	}
 
 }

@@ -1,7 +1,7 @@
 Todoyu.Ext.profile = {
-	
+
 	PanelWidget: {},
-	
+
 	loadModule: function(module) {
 		var url		= Todoyu.getUrl('profile', 'ext');
 		var options	= {
@@ -11,16 +11,16 @@ Todoyu.Ext.profile = {
 			},
 			'onComplete': this.onModuleLoaded.bind(this, module)
 		};
-		
-		Todoyu.Ui.updateContent(url, options);		
+
+		Todoyu.Ui.updateContent(url, options);
 	},
-	
+
 	onModuleLoaded: function(module, response) {
-		
+
 	},
-	
+
 	setContent: function(content) {
-		$('profile-content').update(content);
+		Todoyu.Ui.setContentBody(content);
 	}
-	
+
 };

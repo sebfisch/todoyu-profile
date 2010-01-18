@@ -59,9 +59,11 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 		TodoyuPage::setTitle($title);
 
 		$panelWidgets	= TodoyuProfileRenderer::renderPanelWidgets();
+		$tabs			= TodoyuProfileRenderer::renderTabs($module, $params);
 		$content		= TodoyuProfileRenderer::renderContent($module, $params);
 
 		TodoyuPage::set('panelWidgets', $panelWidgets);
+		TodoyuPage::set('tabs', $tabs);
 		TodoyuPage::set('content', $content);
 
 		return TodoyuPage::render();
