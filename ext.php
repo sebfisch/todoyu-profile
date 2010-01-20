@@ -31,8 +31,8 @@ define('EXTID_PROFILE', 126);
 define('PATH_EXT_PROFILE', PATH_EXT . '/profile');
 
 	// Register module locales
-TodoyuLocale::register('profile', PATH_EXT_PROFILE . '/locale/ext.xml');
-TodoyuLocale::register('panelwidget-profilemodules', PATH_EXT_PROFILE . '/locale/panelwidget-profilemodules.xml');
+TodoyuLanguage::register('profile', PATH_EXT_PROFILE . '/locale/ext.xml');
+TodoyuLanguage::register('panelwidget-profilemodules', PATH_EXT_PROFILE . '/locale/panelwidget-profilemodules.xml');
 
 	// Request configurations
 
