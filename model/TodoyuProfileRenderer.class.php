@@ -60,6 +60,13 @@ class TodoyuProfileRenderer {
 	}
 
 
+
+	/**
+	 * Render profile tabs
+	 *
+	 * @param	String	$module
+	 * @param	Array	$params
+	 */
 	public static function renderTabs($module, array $params = array()) {
 		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
 

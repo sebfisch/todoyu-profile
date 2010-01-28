@@ -4,5 +4,11 @@
 	<section name="general">
 		<right name="use" />
 	</section>
+	
+	<section name="account" require="general:use">
+		<right name="setLanguage" />
+		<right name="setPassword" />
+	</section>
+	
 
 </rights>
