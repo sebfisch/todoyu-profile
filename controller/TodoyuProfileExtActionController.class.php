@@ -82,7 +82,10 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 
 		TodoyuProfilePreferences::saveActiveModule($module);
 
-		return TodoyuProfileRenderer::renderContent($module, $params);
+		$tabs	= TodoyuProfileRenderer::renderTabs($module, $params);
+		$content= TodoyuProfileRenderer::renderContent($module, $params);
+
+		return TodoyuRenderer::renderContent($content, $tabs);
 	}
 
 }

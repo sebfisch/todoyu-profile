@@ -31,7 +31,7 @@ $CONFIG['EXT']['profile']['generalTabs'] = array(
 		'classKey'		=> 'main',
 		'class'			=> '',
 		'label'			=> 'LLL:profile.general.main.tab',
-		'requiredRight'	=> 'account:setLanguage'
+		'require'		=> 'profile.account:setLanguage'
 	),
 	array(
 		'id'			=> 'password',
@@ -40,7 +40,7 @@ $CONFIG['EXT']['profile']['generalTabs'] = array(
 		'classKey'		=> 'password',
 		'class'			=> '',
 		'label'			=> 'LLL:profile.general.password.tab',
-		'requiredRight'	=> 'account:setPassword'
+		'require'		=> 'profile.account:setPassword'
 	)
 );
 

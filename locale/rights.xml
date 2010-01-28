@@ -6,6 +6,7 @@
 		<label index="account">Account Settings</label>
 		<label index="account.setLanguage">Select language</label>>
 		<label index="account.setPassword">Change user password</label>
+		<label index="panelwidgets.profilemodules">Use profile module panelwidget</label>
 	</labels>
 	<labels lang="de">
 		<label index="general">Allgemeine Einstellungen</label>
@@ -13,5 +14,6 @@
 		<label index="account">Benutzerkonto-Einstellungen</label>
 		<label index="account.setLanguage">Sprache wählen</label>
 		<label index="account.setPassword">Benutzerpasswort ändern</label>
+		<label index="panelwidgets.profilemodules">Benutze Einstellungs-Panelwidget</label>
 	</labels>
 </locallang>

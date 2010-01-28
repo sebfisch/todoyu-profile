@@ -4,11 +4,14 @@
 	<section name="general">
 		<right name="use" />
 	</section>
-	
+
 	<section name="account" require="general:use">
 		<right name="setLanguage" />
 		<right name="setPassword" />
 	</section>
-	
+
+	<section name="panelwidgets" require="general:use">
+		<right name="profilemodules" />
+	</section>
 
 </rights>
