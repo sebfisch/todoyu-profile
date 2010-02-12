@@ -30,7 +30,7 @@ class TodoyuProfilePreferenceActionController extends TodoyuActionController {
 	/**
 	 * General panelWidget action, saves collapse status
 	 *
-	 *	@param	Array	$params
+	 * @param	Array	$params
 	 */
 	public function pwidgetAction(array $params) {
 		$idWidget	= $params['item'];
