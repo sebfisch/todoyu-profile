@@ -75,7 +75,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
 			$password	= $data['password_new'];
 
-			TodoyuUserManager::updatePassword($password, false);
+			TodoyuPersonManager::updatePassword($password, false);
 		} else {
 			TodoyuHeader::sendTodoyuErrorHeader();
 
