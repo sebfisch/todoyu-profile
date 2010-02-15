@@ -52,7 +52,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 		$fields	= $params['general'];
 		$lang	= trim($fields['language']);
 
-		TodoyuUserPreferences::saveLanguage($lang);
+		TodoyuContactPreferences::saveLanguage($lang);
 	}
 
 
