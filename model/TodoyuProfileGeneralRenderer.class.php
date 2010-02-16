@@ -34,8 +34,8 @@ class TodoyuProfileGeneralRenderer {
 	 * @return	String
 	 */
 	public static function renderTabs(array $params) {
-		$htmlID		= 'profile-general-tabs';
-		$class		= 'profile tabs';
+		$name		= 'profile-general';
+		$class		= 'profile';
 		$jsHandler	= 'Todoyu.Ext.profile.General.onTabClick.bind(Todoyu.Ext.profile.General)';
 		$tabs		= TodoyuTabManager::getTabs($GLOBALS['CONFIG']['EXT']['profile']['generalTabs']);
 		$active		= $params['tab'];
@@ -44,7 +44,7 @@ class TodoyuProfileGeneralRenderer {
 			$active = $tabs[0]['id'];
 		}
 
-		return TodoyuTabheadRenderer::renderTabs($htmlID, $class, $jsHandler, $tabs, $active);
+		return TodoyuTabheadRenderer::renderTabs($name, $tabs, $jsHandler, $active, $class);
 	}
 
 
