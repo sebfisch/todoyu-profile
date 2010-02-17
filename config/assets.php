@@ -26,9 +26,6 @@
  * @subpackage	Profile
  */
 
-
-
-
 $CONFIG['EXT']['profile']['assets'] = array(
 		// default assets: loaded all over the installation always
 	'default' => array(
