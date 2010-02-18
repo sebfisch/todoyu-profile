@@ -27,7 +27,8 @@
  */
 
 $CONFIG['EXT']['profile']['assets'] = array(
-		// default assets: loaded all over the installation always
+
+		// Default assets: loaded all over the installation always
 	'default' => array(
 		'js' => array(
 
@@ -41,7 +42,7 @@ $CONFIG['EXT']['profile']['assets'] = array(
 	),
 
 
-		// public assets: basis assets for this extension
+		// Public assets: basis assets for this extension
 	'public' => array(
 		'js' => array(
 			array(
@@ -62,6 +63,9 @@ $CONFIG['EXT']['profile']['assets'] = array(
 		)
 	),
 
+	// Assets of panel widgets
+
+		// Profile modules
 	'panelwidget-profilemodules' => array(
 		'js' => array(
 
