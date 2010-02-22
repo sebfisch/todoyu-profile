@@ -25,20 +25,21 @@
 
 
 $CONFIG['EXT']['profile']['info'] = array(
-	'title'				=> 'User Profile Settings',
-	'description' 		=> 'Edit user profile',
-	'author' 			=> array(
+	'title'			=> 'User Profile Settings',
+	'description' 	=> 'Edit user profile',
+	'author' 		=> array(
 		'name'		=> 'Todoyu Core Team',
 		'email'		=> 'team@todoyu.com',
 		'company'	=> 'Snowflake Productions, Zürich'
 	),
-	'state' 			=> 'alpha',
-	'version' 			=> '0.1.0',
-	'constraints' 		=> array(
+	'state' 		=> 'beta',
+	'version' 		=> '0.2.0',
+	'constraints' 	=> array(
 		'depends' => array(
-			'user' => '0.1.0'
+			'contact' => '0.2.0'
 		),
-		'conflicts' => array(),
+		'conflicts' => array(
+		),
 		'sysext'	=> true
 	)
 );
