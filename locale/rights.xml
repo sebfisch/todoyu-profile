@@ -5,7 +5,7 @@
 		<label index="general.use">Use Profile</label>
 		<label index="account">Account Settings</label>
 		<label index="account.setLanguage">Select language</label>>
-		<label index="account.setPassword">Change user password</label>
+		<label index="account.setPassword">Change persons password</label>
 		<label index="panelwidgets.profilemodules">Use profile module panelwidget</label>
 	</labels>
 	<labels lang="de">

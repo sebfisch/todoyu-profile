@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <locallang>
 	<labels lang="en">
-		<label index="ext.title">Usersettings</label>
+		<label index="ext.title">Personsettings</label>
 		<label index="page.title">My Profile</label>
 		<label index="tab.label">My Settings</label>
 		<label index="module.general">General Settings</label>
@@ -18,7 +18,7 @@
 		<label index="general.password.success">Password changed</label>
 		<label index="general.password.notEqual">New password was not repeated correctly</label>
 	</labels>
-	<labels lang="de">		
+	<labels lang="de">
 		<label index="ext.title">Benutzereinstellungen</label>
 		<label index="page.title">Mein Profil</label>
 		<label index="tab.label">Meine Einstellungen</label>

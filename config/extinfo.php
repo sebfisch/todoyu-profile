@@ -25,8 +25,8 @@
 
 
 $CONFIG['EXT']['profile']['info'] = array(
-	'title'			=> 'User Profile Settings',
-	'description' 	=> 'Edit user profile',
+	'title'			=> 'Person Profile Settings',
+	'description' 	=> 'Edit person profile',
 	'author' 		=> array(
 		'name'		=> 'Todoyu Core Team',
 		'email'		=> 'team@todoyu.com',
