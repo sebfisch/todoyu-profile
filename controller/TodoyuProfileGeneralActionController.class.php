@@ -27,6 +27,11 @@
  */
 class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
+	public function init(array $params) {
+		restrict('profile', 'general:area');
+	}
+
+
 	/**
 	 * Load tab content
 	 *
@@ -64,6 +69,8 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 * @return	String
 	 */
 	public function savePasswordAction(array $params) {
+		restrict('profile', 'settings:password');
+
 		$xmlPath= 'ext/profile/config/form/general-password.xml';
 		$form	= TodoyuFormManager::getForm($xmlPath);
 		$data	= $params['general'];

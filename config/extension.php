@@ -26,13 +26,12 @@
 $CONFIG['EXT']['profile']['generalTabs'] = array(
 	array(
 		'id'			=> 'main',
-		'label'			=> 'LLL:profile.general.main.tab',
-		'require'		=> 'profile.account:setLanguage'
+		'label'			=> 'LLL:profile.general.main.tab'
 	),
 	array(
 		'id'			=> 'password',
 		'label'			=> 'LLL:profile.general.password.tab',
-		'require'		=> 'profile.account:setPassword'
+		'require'		=> 'profile.settings:password'
 	)
 );
 

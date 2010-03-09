@@ -28,7 +28,7 @@
 class TodoyuProfileExtActionController extends TodoyuActionController {
 
 	public function init(array $params) {
-
+		restrict('profile', 'general:area');
 	}
 
 
@@ -39,8 +39,6 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 	 * @return	String
 	 */
 	public function defaultAction(array $params) {
-		restrict('profile', 'general:use');
-
 			// Set project tab
 		TodoyuFrontend::setActiveTab('todoyu');
 

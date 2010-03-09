@@ -3,6 +3,7 @@
 	<labels lang="en">
 		<label index="general">General Settings</label>
 		<label index="general.use">Use Profile</label>
+		<label index="general.area">Use Profile Area</label>
 		<label index="account">Account Settings</label>
 		<label index="account.setLanguage">Select language</label>>
 		<label index="account.setPassword">Change persons password</label>
@@ -11,6 +12,7 @@
 	<labels lang="de">
 		<label index="general">Allgemeine Einstellungen</label>
 		<label index="general.use">Profil verwenden</label>
+		<label index="general.area">Profil Bereich anzeigen</label>
 		<label index="account">Benutzerkonto-Einstellungen</label>
 		<label index="account.setLanguage">Sprache wählen</label>
 		<label index="account.setPassword">Benutzerpasswort ändern</label>

@@ -3,15 +3,11 @@
 
 	<section name="general">
 		<right name="use" />
+		<right name="area" require="general:use" />
 	</section>
 
-	<section name="account" require="general:use">
-		<right name="setLanguage" />
-		<right name="setPassword" />
-	</section>
-
-	<section name="panelwidgets" require="general:use">
-		<right name="profilemodules" />
+	<section name="settings" require="general:area">
+		<right name="password" />
 	</section>
 
 </rights>
