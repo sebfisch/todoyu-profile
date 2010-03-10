@@ -26,11 +26,11 @@
 
 $CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
-	'description' 	=> 'Edit person profile',
+	'description' 	=> 'Edit Person Profile',
 	'author' 		=> array(
-		'name'		=> 'Todoyu Core Team',
+		'name'		=> 'Journal of tracked hours',
 		'email'		=> 'team@todoyu.com',
-		'company'	=> 'Snowflake Productions, Zürich'
+		'company'	=> 'snowflake productions GmbH, Zurich'
 	),
 	'state' 		=> 'beta',
 	'version' 		=> '0.2.0',
