@@ -9,14 +9,14 @@
 		<label index="general.main.language">Language</label>
 		<label index="general.main.saved">Settings saved</label>
 		<label index="general.password.tab">Password</label>
-		<label index="general.password.current">Current password</label>
+		<label index="general.password.current">Current Password</label>
 		<label index="general.password.current.empty">You have to enter your old password to change it</label>
 		<label index="general.password.current.wrong">The old password you entered is incorrect</label>
-		<label index="general.password.new1">New password</label>
-		<label index="general.password.new2">Repeat password</label>
-		<label index="general.password.error">Can't change password</label>
-		<label index="general.password.success">Password changed</label>
-		<label index="general.password.notEqual">New password was not repeated correctly</label>
+		<label index="general.password.new1">New Password</label>
+		<label index="general.password.new2">Repeat Password</label>
+		<label index="general.password.error">Can't Change Password</label>
+		<label index="general.password.success">Password Changed</label>
+		<label index="general.password.notEqual">The New Passwords Do Not Match</label>
 	</labels>
 	<labels lang="de">
 		<label index="ext.title">Benutzereinstellungen</label>
@@ -34,6 +34,6 @@
 		<label index="general.password.new2">Passwort wiederholen</label>
 		<label index="general.password.error">Passwortänderung fehlgeschlagen</label>
 		<label index="general.password.success">Passwort geändert</label>
-		<label index="general.password.notEqual">Das neue Passwort wurde nicht richtig wiederholt</label>
+		<label index="general.password.notEqual">Die beiden neuen Passwörter stimmen nicht überein</label>
 	</labels>
 </locallang>

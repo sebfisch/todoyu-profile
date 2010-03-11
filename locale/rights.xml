@@ -5,9 +5,9 @@
 		<label index="general.use">Use Profile</label>
 		<label index="general.area">Use Profile Area</label>
 		<label index="account">Account Settings</label>
-		<label index="account.setLanguage">Select language</label>>
-		<label index="account.setPassword">Change persons password</label>
-		<label index="panelwidgets.profilemodules">Use profile module panelwidget</label>
+		<label index="account.setLanguage">Select Language</label>>
+		<label index="account.setPassword">Is Allowed To Change Password</label>
+		<label index="panelwidgets.profilemodules">Use Profile Module Panelwidget</label>
 	</labels>
 	<labels lang="de">
 		<label index="general">Allgemeine Einstellungen</label>
