@@ -49,14 +49,6 @@ class TodoyuProfileRenderer {
 		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
 
 		return TodoyuDiv::callUserFunction($moduleConf['content'], $params);
-
-		$tmpl		= 'ext/profile/view/module.tmpl';
-		$data		= array(
-//			'tabs'		=> $tabs,
-			'content'	=> $content
-		);
-
-		return render($tmpl, $data);
 	}
 
 

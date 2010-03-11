@@ -62,6 +62,7 @@ class TodoyuProfileGeneralRenderer {
 			case 'password':
 				return self::renderContentPassword();
 				break;
+
 			case 'main':
 			default:
 				return self::renderContentMain();
