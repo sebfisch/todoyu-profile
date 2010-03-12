@@ -1,6 +1,8 @@
 Todoyu.Ext.profile = {
 
 	PanelWidget: {},
+	
+	Headlet: {},
 
 	loadModule: function(module) {
 		var url		= Todoyu.getUrl('profile', 'ext');
