@@ -80,13 +80,11 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 		if( $form->isValid() ) {
 			$data		= $form->getStorageData();
 
-			$password	= $data['password_new'];
+			$password	= $data['password_new1'];
 
 			TodoyuPersonManager::updatePassword($password, false);
 		} else {
 			TodoyuHeader::sendTodoyuErrorHeader();
-
-			TodoyuDebug::printInFirebug('error');
 
 			return $form->render();
 		}
