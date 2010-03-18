@@ -35,8 +35,6 @@ class TodoyuHeadletProfile extends TodoyuHeadletTypeButton {
 	protected function init() {
 			// Set javascript object which handles events
 		$this->setJsHeadlet('Todoyu.Ext.profile.Headlet.Profile');
-
-		TodoyuPage::addExtAssets('profile', 'headlet-profile');
 	}
 
 

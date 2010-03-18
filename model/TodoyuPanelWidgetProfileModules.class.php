@@ -47,8 +47,6 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 		);
 
 		$this->addHasIconClass();
-
-		TodoyuPage::addExtAssets('profile', 'panelwidget-profilemodules');
 	}
 
 

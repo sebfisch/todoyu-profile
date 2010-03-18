@@ -27,70 +27,39 @@
  */
 
 $CONFIG['EXT']['profile']['assets'] = array(
-
-		// Default assets: loaded all over the installation always
-	'default' => array(
-		'js' => array(
-			array(
-				'file'		=> 'ext/profile/assets/js/Ext.js',
-				'position'	=> 100
-			)
+	'js' => array(
+		array(
+			'file'		=> 'ext/profile/assets/js/Ext.js',
+			'position'	=> 100
 		),
-		'css' => array(
-			array(
-				'file'		=> 'ext/profile/assets/css/global.css',
-				'position'	=> 100
-			)
+		array(
+			'file'		=> 'ext/profile/assets/js/General.js',
+			'position'	=> 101
+		),
+		array(
+			'file'		=> 'ext/profile/assets/js/HeadletProfile.js',
+			'position'	=> 110
 		)
 	),
-
-
-		// Public assets: basis assets for this extension
-	'public' => array(
-		'js' => array(
-			array(
-				'file'		=> 'ext/profile/assets/js/General.js',
-				'position'	=> 101
-			)
+	'css' => array(
+		array(
+			'file'		=> 'ext/profile/assets/css/global.css',
+			'position'	=> 100
 		),
-		'css' => array(
-			array(
-				'file'		=> 'ext/profile/assets/css/ext.css',
-				'media'		=> 'all',
-				'position'	=> 100
-			)
-		)
-	),
-
-	// Assets of panel widgets
-
-		// Profile modules
-	'panelwidget-profilemodules' => array(
-		'js' => array(
-
+		array(
+			'file'		=> 'ext/profile/assets/css/ext.css',
+			'media'		=> 'all',
+			'position'	=> 100
 		),
-		'css' => array(
-			array(
-				'file'		=> 'ext/profile/assets/css/panelwidget-profilemodules.css',
-				'media'		=> 'all',
-				'position'	=> 130
-			)
-		)
-	),
-
-	'headlet-profile' => array(
-		'js' => array(
-			array(
-				'file'		=> 'ext/profile/assets/js/HeadletProfile.js',
-				'position'	=> 110
-			)
+		array(
+			'file'		=> 'ext/profile/assets/css/panelwidget-profilemodules.css',
+			'media'		=> 'all',
+			'position'	=> 130
 		),
-		'css' => array(
-			array(
-				'file'		=> 'ext/profile/assets/css/headlet-profile.css',
-				'media'		=> 'all',
-				'position'	=> 110
-			)
+		array(
+			'file'		=> 'ext/profile/assets/css/headlet-profile.css',
+			'media'		=> 'all',
+			'position'	=> 110
 		)
 	)
 );
