@@ -4,18 +4,14 @@
 		<label index="general">General Settings</label>
 		<label index="general.use">Use Profile</label>
 		<label index="general.area">Use Profile Area</label>
-		<label index="account">Account Settings</label>
-		<label index="account.setLanguage">Select Language</label>>
-		<label index="account.setPassword">Is Allowed To Change Password</label>
-		<label index="panelwidgets.profilemodules">Use Profile Module Panelwidget</label>
+		<label index="settings">Account Settings</label>
+		<label index="settings.password">Change password</label>>
 	</labels>
 	<labels lang="de">
 		<label index="general">Allgemeine Einstellungen</label>
 		<label index="general.use">Profil verwenden</label>
 		<label index="general.area">Profil Bereich anzeigen</label>
-		<label index="account">Benutzerkonto-Einstellungen</label>
-		<label index="account.setLanguage">Sprache wählen</label>
-		<label index="account.setPassword">Benutzerpasswort ändern</label>
-		<label index="panelwidgets.profilemodules">Benutze Einstellungs-Panelwidget</label>
+		<label index="settings">Benutzerkonto-Einstellungen</label>
+		<label index="settings.password">Passwort ändern</label>
 	</labels>
 </locallang>
