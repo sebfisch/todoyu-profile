@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <locallang>
 	<labels lang="en">
-		<label index="ext.title">Personsettings</label>
+		<label index="ext.title">Personal settings</label>
 		<label index="page.title">My Profile</label>
 		<label index="tab.label">My Settings</label>
 		<label index="module.general">General Settings</label>
