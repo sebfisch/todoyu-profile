@@ -23,7 +23,6 @@
  * Various project extension info data
  */
 
-
 $CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
 	'description' 	=> 'Edit Person Profile',
@@ -43,6 +42,5 @@ $CONFIG['EXT']['profile']['info'] = array(
 		'sysext'	=> true
 	)
 );
-
 
 ?>

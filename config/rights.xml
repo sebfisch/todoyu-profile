@@ -3,10 +3,9 @@
 
 	<section name="general">
 		<right name="use" />
-		<right name="area" require="general:use" />
 	</section>
 
-	<section name="settings" require="general:area">
+	<section name="settings" require="general:use">
 		<right name="password" />
 	</section>
 

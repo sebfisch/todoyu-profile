@@ -19,7 +19,6 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 
-
 /**
  * Tabs for general area
  */
@@ -34,6 +33,7 @@ $CONFIG['EXT']['profile']['generalTabs'] = array(
 		'require'		=> 'profile.settings:password'
 	)
 );
+
 
 
 /**

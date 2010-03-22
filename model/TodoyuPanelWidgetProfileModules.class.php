@@ -90,9 +90,13 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 
 
 
-
+	/**
+	 * Check access to profile
+	 *
+	 * @return	Boolean
+	 */
 	public static function isAllowed() {
-		return allowed('profile', 'general:area');
+		return allowed('profile', 'general:use');
 	}
 
 }
