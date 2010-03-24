@@ -5,7 +5,7 @@
 		<label index="general.use">Use Profile</label>
 		<label index="general.area">Use Profile Area</label>
 		<label index="settings">Account Settings</label>
-		<label index="settings.password">Change password</label>>
+		<label index="settings.password">Change Password</label>>
 	</labels>
 	<labels lang="de">
 		<label index="general">Allgemeine Einstellungen</label>
