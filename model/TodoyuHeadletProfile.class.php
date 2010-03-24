@@ -45,7 +45,7 @@ class TodoyuHeadletProfile extends TodoyuHeadletTypeButton {
 	 * @return	String
 	 */
 	public function getLabel() {
-		return 'Profile';
+		return Label('profile.headlet.label');
 	}
 
 }

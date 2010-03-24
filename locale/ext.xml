@@ -3,7 +3,7 @@
 	<labels lang="en">
 		<label index="ext.title">Personal settings</label>
 		<label index="page.title">My Profile</label>
-		<label index="tab.label">My Settings</label>
+		<label index="headlet.label">My Settings</label>
 		<label index="module.general">General Settings</label>
 		<label index="general.main.tab">Main</label>
 		<label index="general.main.language">Language</label>
@@ -21,7 +21,7 @@
 	<labels lang="de">
 		<label index="ext.title">Benutzereinstellungen</label>
 		<label index="page.title">Mein Profil</label>
-		<label index="tab.label">Meine Einstellungen</label>
+		<label index="headlet.label">Meine Einstellungen</label>
 		<label index="module.general">Allgemeine Einstellungen</label>
 		<label index="general.main.tab">Allgemein</label>
 		<label index="general.main.language">Sprache</label>
