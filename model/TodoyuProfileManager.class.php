@@ -34,8 +34,8 @@ class TodoyuProfileManager {
 	 * @param	Array		$config
 	 */
 	public static function addModule($name, array $config) {
-		$GLOBALS['CONFIG']['EXT']['profile']['module'][$name] = $config;
-		$GLOBALS['CONFIG']['EXT']['profile']['module'][$name]['name'] = $name;
+		Todoyu::$CONFIG['EXT']['profile']['module'][$name] = $config;
+		Todoyu::$CONFIG['EXT']['profile']['module'][$name]['name'] = $name;
 	}
 
 
@@ -47,7 +47,7 @@ class TodoyuProfileManager {
 	 * @return	Array
 	 */
 	public static function getModuleConfig($name) {
-		return TodoyuArray::assure($GLOBALS['CONFIG']['EXT']['profile']['module'][$name]);
+		return TodoyuArray::assure(Todoyu::$CONFIG['EXT']['profile']['module'][$name]);
 	}
 
 
@@ -58,7 +58,7 @@ class TodoyuProfileManager {
 	 * @return	Array
 	 */
 	public static function getModules() {
-		return TodoyuArray::assure($GLOBALS['CONFIG']['EXT']['profile']['module']);
+		return TodoyuArray::assure(Todoyu::$CONFIG['EXT']['profile']['module']);
 	}
 
 }

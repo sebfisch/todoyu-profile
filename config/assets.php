@@ -26,7 +26,7 @@
  * @subpackage	Profile
  */
 
-$CONFIG['EXT']['profile']['assets'] = array(
+Todoyu::$CONFIG['EXT']['profile']['assets'] = array(
 	'js' => array(
 		array(
 			'file'		=> 'ext/profile/assets/js/Ext.js',

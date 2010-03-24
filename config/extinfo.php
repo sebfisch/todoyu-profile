@@ -23,7 +23,7 @@
  * Various project extension info data
  */
 
-$CONFIG['EXT']['profile']['info'] = array(
+Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
 	'description' 	=> 'Edit Person Profile',
 	'author' 		=> array(

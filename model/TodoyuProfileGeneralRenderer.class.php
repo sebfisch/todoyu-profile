@@ -37,7 +37,7 @@ class TodoyuProfileGeneralRenderer {
 		$name		= 'profile-general';
 		$class		= 'profile';
 		$jsHandler	= 'Todoyu.Ext.profile.General.onTabClick.bind(Todoyu.Ext.profile.General)';
-		$tabs		= TodoyuTabManager::getTabs($GLOBALS['CONFIG']['EXT']['profile']['generalTabs']);
+		$tabs		= TodoyuTabManager::getTabs(Todoyu::$CONFIG['EXT']['profile']['generalTabs']);
 		$active		= $params['tab'];
 
 		if( is_null($active) )	{

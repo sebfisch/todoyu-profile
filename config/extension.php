@@ -22,7 +22,7 @@
 /**
  * Tabs for general area
  */
-$CONFIG['EXT']['profile']['generalTabs'] = array(
+Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
 	array(
 		'id'			=> 'main',
 		'label'			=> 'LLL:profile.general.main.tab'
