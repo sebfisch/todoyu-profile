@@ -14,6 +14,7 @@
 
 				<field type="select" name="language">
 					<label>profile.general.main.language</label>
+					<noPleaseSelect />
 					<source type="function">
 					<function>TodoyuProfileViewHelper::getLanguageOptions</function>
 					</source>
