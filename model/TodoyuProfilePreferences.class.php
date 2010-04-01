@@ -32,7 +32,7 @@ class TodoyuProfilePreferences {
 	 * @param	String		$preference
 	 * @param	String		$value
 	 * @param	Integer		$idItem
-	 * @param	Bool		$unique
+	 * @param	Boolean		$unique
 	 * @param	Integer		$idPerson
 	 */
 	public static function savePref($preference, $value, $idItem = 0, $unique = false, $idArea = 0, $idPerson = 0) {
