@@ -33,7 +33,7 @@ class TodoyuProfileViewHelper {
 	 * @return	Array
 	 */
 	public static function getLanguageOptions(TodoyuFormElement $field) {
-		$langs	= array('en', 'de');
+		$langs	= array('en', 'de', 'pt');
 		$where	= 'iso_alpha2 IN(\'' . implode('\',\'', $langs) . '\')';
 
 		return TodoyuDatasource::getLanguageOptions($where);
