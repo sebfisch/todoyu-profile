@@ -24,9 +24,9 @@
 
 Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
-	'description' 	=> 'Edit Person Profile',
+	'description' 	=> 'Edit Person Profile (language, password, etc.)',
 	'author' 		=> array(
-		'name'		=> 'Journal of tracked hours',
+		'name'		=> 'todoyu Core Developer Team',
 		'email'		=> 'team@todoyu.com',
 		'company'	=> 'snowflake productions GmbH, Zurich'
 	),
