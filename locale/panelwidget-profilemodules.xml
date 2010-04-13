@@ -6,4 +6,7 @@
 	<labels lang="de">
 		<label index="title">Profil Module</label>
 	</labels>
+	<labels lang="pt">
+		<label index="title">Módulos de Perfil</label>
+	</labels>
 </locallang>

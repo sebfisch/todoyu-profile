@@ -20,13 +20,6 @@
 					<noPleaseSelect />
 				</field>
 
-				<field type="selectgrouped" name="timezone">
-					<label>profile.general.main.timezone</label>
-					<source type="function">
-						<function>TodoyuProfileViewHelper::getTimezoneOptions</function>
-					</source>
-				</field>
-
 			</elements>
 		</fieldset>
 
