@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <locallang>
-	<labels lang="en">
+	<labels lang="en_GB">
 		<label index="ext.title">Personal settings</label>
 		<label index="page.title">My Profile</label>
 		<label index="headlet.label">My Settings</label>
@@ -18,7 +18,7 @@
 		<label index="general.password.success">Password Changed</label>
 		<label index="general.password.notEqual">The New Passwords Do Not Match</label>
 	</labels>
-	<labels lang="de">
+	<labels lang="de_DE">
 		<label index="ext.title">Benutzereinstellungen</label>
 		<label index="page.title">Mein Profil</label>
 		<label index="headlet.label">Meine Einstellungen</label>
@@ -36,7 +36,7 @@
 		<label index="general.password.success">Passwort geändert</label>
 		<label index="general.password.notEqual">Die beiden neuen Passwörter stimmen nicht überein</label>
 	</labels>
-	<labels lang="pt">
+	<labels lang="pt_BR">
 		<label index="ext.title">Configurações Pessoais</label>
 		<label index="page.title">Meu Perfil</label>
 		<label index="headlet.label">Minhas Configurações</label>
