@@ -34,7 +34,7 @@ TodoyuLanguage::register('profile', PATH_EXT_PROFILE . '/locale/ext.xml');
 TodoyuLanguage::register('panelwidget-profilemodules', PATH_EXT_PROFILE . '/locale/panelwidget-profilemodules.xml');
 
 	// Request configurations
+	// @notice	Auto-loaded configs if available: admin, assets, create, contextmenu, extinfo, filters, form, page, panelwidgets, rights, search
 require_once( PATH_EXT_PROFILE . '/config/extension.php' );
-require_once( PATH_EXT_PROFILE . '/config/panelwidgets.php' );
 
 ?>
