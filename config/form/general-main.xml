@@ -12,12 +12,11 @@
 			<class>left</class>
 			<elements>
 
-				<field type="select" name="language">
-					<label>profile.general.main.language</label>
+				<field type="select" name="locale">
+					<label>profile.general.main.locale</label>
 					<source type="function">
-						<function>TodoyuProfileViewHelper::getLanguageOptions</function>
+						<function>TodoyuProfileViewHelper::getLocaleOptions</function>
 					</source>
-					<noPleaseSelect />
 				</field>
 
 			</elements>

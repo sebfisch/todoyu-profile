@@ -54,9 +54,11 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 */
 	public function saveMainAction(array $params) {
 		$fields	= $params['general'];
-		$lang	= trim($fields['language']);
+		$locale	= trim($fields['locale']);
+		
+		TodoyuContactPreferences::saveLocale($locale);
 
-		TodoyuContactPreferences::saveLanguage($lang);
+		TodoyuDebug::printInFirebug(Todoyu::db()->getLastQuery(), 'last query');
 	}
 
 

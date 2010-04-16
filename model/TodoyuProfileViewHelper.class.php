@@ -27,16 +27,13 @@
 class TodoyuProfileViewHelper {
 
 	/**
-	 * Get config array of language options
+	 * Get config array of locale options
 	 *
 	 * @param	TodoyuFormElement	$field
 	 * @return	Array
 	 */
-	public static function getLanguageOptions(TodoyuFormElement $field) {
-		$langs	= array('en_EN', 'de_DE', 'pt_BR');
-		$where	= 'iso_alpha2 IN(\'' . implode('\',\'', $langs) . '\')';
-
-		return TodoyuDatasource::getLanguageOptions($where);
+	public static function getLocaleOptions(TodoyuFormElement $field) {
+		return TodoyuLocaleManager::getLocaleOptions();
 	}
 
 }

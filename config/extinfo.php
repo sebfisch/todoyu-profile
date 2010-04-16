@@ -24,7 +24,7 @@
 
 Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
-	'description' 	=> 'Edit Person Profile (language, password, etc.)',
+	'description' 	=> 'Edit Person Profile (language/locale, password, etc.)',
 	'author' 		=> array(
 		'name'		=> 'todoyu Core Developer Team',
 		'email'		=> 'team@todoyu.com',

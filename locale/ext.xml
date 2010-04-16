@@ -6,7 +6,7 @@
 		<label index="headlet.label">My Settings</label>
 		<label index="module.general">General Settings</label>
 		<label index="general.main.tab">Main</label>
-		<label index="general.main.language">Language</label>
+		<label index="general.main.locale">Language</label>
 		<label index="general.main.saved">Settings saved</label>
 		<label index="general.password.tab">Password</label>
 		<label index="general.password.current">Current Password</label>
@@ -24,7 +24,7 @@
 		<label index="headlet.label">Meine Einstellungen</label>
 		<label index="module.general">Allgemeine Einstellungen</label>
 		<label index="general.main.tab">Allgemein</label>
-		<label index="general.main.language">Sprache</label>
+		<label index="general.main.locale">Sprache</label>
 		<label index="general.main.saved">Einstellungen gespeichert</label>
 		<label index="general.password.tab">Passwort</label>
 		<label index="general.password.current">Aktuelles Passwort</label>
@@ -42,7 +42,7 @@
 		<label index="headlet.label">Minhas Configurações</label>
 		<label index="module.general">Configuração</label>
 		<label index="general.main.tab">Principal</label>
-		<label index="general.main.language">Linguagem</label>
+		<label index="general.main.locale">Linguagem</label>
 		<label index="general.main.saved">Configurações salvas</label>
 		<label index="general.password.tab">Senha</label>
 		<label index="general.password.current">Senha Atual</label>

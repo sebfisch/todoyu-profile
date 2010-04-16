@@ -81,7 +81,7 @@ class TodoyuProfileGeneralRenderer {
 		$form	= TodoyuFormManager::getForm($xmlPath);
 
 		$formData	= array(
-			'language'	=> Todoyu::person()->getLanguage()
+			'locale'	=> Todoyu::person()->getLocale()
 		);
 
 		$form->setFormData($formData);
