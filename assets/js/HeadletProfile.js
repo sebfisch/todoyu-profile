@@ -7,7 +7,9 @@ Todoyu.Ext.profile.Headlet.Profile = {
 			this.headlet.setActive('profile');
 		}
 	},
-	
+
+
+
 	onButtonClick: function(event) {
 		Todoyu.goTo('profile', 'ext');
 	}

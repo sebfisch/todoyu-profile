@@ -12,12 +12,15 @@ Todoyu.Ext.profile.General = {
 
 	/**
 	 * Handler for tabs in general area
-	 * @param	Event		event
-	 * @param	String		tabKey
+	 *
+	 * @param	{Event}		event
+	 * @param	{String}		tabKey
 	 */
 	onTabClick: function(event, tabKey) {
 		this.loadTab(tabKey);
 	},
+
+
 
 	loadTab: function(tab) {
 		var url		= Todoyu.getUrl('profile', 'general');
@@ -32,9 +35,13 @@ Todoyu.Ext.profile.General = {
 		Todoyu.Ui.updateContentBody(url, options);
 	},
 
+
+
 	onTabLoaded: function(tab, respone) {
 
 	},
+
+
 
 	saveMain: function(form) {
 		form.request({
@@ -45,11 +52,15 @@ Todoyu.Ext.profile.General = {
 		});
 	},
 
+
+
 	onMainSaved: function(response) {
 		Todoyu.notifySuccess('[LLL:profile.general.main.saved]');
 
 		setTimeout('location.reload()', 1000)
 	},
+
+
 
 	savePassword: function(form) {
 		form.request({
@@ -60,6 +71,8 @@ Todoyu.Ext.profile.General = {
 		});
 	},
 
+
+
 	onPasswordSaved: function(response) {
 		if( response.hasTodoyuError() ) {
 			Todoyu.notifyError('[LLL:profile.general.password.error]');
@@ -69,4 +82,5 @@ Todoyu.Ext.profile.General = {
 			this.loadTab('password');
 		}
 	}
+
 };

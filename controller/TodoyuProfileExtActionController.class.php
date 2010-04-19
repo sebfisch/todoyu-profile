@@ -31,6 +31,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 	}
 
 
+
 	/**
 	 * Default action for profile
 	 *

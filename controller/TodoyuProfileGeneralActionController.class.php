@@ -31,6 +31,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	}
 
 
+
 	/**
 	 * Load tab content
 	 *
