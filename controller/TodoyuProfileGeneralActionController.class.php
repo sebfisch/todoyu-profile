@@ -22,7 +22,7 @@
  * Panelwidget Quicktask
  *
  * @package		Todoyu
- * @subpackage	Portal
+ * @subpackage	Profile
  */
 class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
