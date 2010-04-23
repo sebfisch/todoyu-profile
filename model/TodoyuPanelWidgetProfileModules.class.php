@@ -41,7 +41,7 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 			'profilemodules',						// panel widget ID
 			'LLL:panelwidget-profilemodules.title',	// widget title text
 			$config,								// widget config array
-			$params,								// widget params
+			$params,								// widget parameters
 			$idArea									// area ID
 		);
 

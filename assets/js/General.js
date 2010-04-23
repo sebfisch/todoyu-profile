@@ -5,6 +5,8 @@ Todoyu.Ext.profile.General = {
 
 	/**
 	 * Shortcut to extension namespace
+	 *
+	 * @var	{Object}	ext
 	 */
 	ext: Todoyu.Ext.profile,
 
