@@ -27,12 +27,19 @@
 class TodoyuProfileRenderer {
 
 	/**
+	 * Extension key
+	 */
+	const EXTKEY = 'profile';
+
+
+
+	/**
 	 * Render profile panel widgets
 	 *
 	 * @return	String
 	 */
 	public static function renderPanelWidgets() {
-		return TodoyuPanelWidgetRenderer::renderPanelWidgets('profile');
+		return TodoyuPanelWidgetRenderer::renderPanelWidgets(self::EXTKEY);
 	}
 
 
