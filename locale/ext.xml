@@ -7,14 +7,14 @@
 		<label index="module.general">General Settings</label>
 		<label index="general.main.tab">Main</label>
 		<label index="general.main.locale">Language</label>
-		<label index="general.main.saved">Settings saved</label>
+		<label index="general.main.saved">Settings Saved</label>
 		<label index="general.password.tab">Password</label>
 		<label index="general.password.current">Current Password</label>
-		<label index="general.password.current.empty">You have to enter your old password to change it</label>
+		<label index="general.password.current.empty">Please enter your old password to change it</label>
 		<label index="general.password.current.wrong">The old password you entered is incorrect</label>
 		<label index="general.password.new1">New Password</label>
 		<label index="general.password.new2">Repeat Password</label>
-		<label index="general.password.error">Can't change password</label>
+		<label index="general.password.error">Can't Change Password</label>
 		<label index="general.password.success">Password Changed</label>
 		<label index="general.password.notEqual">The new passwords do not match</label>
 	</labels>
