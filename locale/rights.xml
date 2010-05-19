@@ -21,4 +21,11 @@
 		<label index="settings">Configurações de Conta</label>
 		<label index="settings.password">Alterar a Senha</label>>
 	</labels>
+	<labels lang="ru_RU">
+		<label index="general">Общие</label>
+		<label index="general.use">Использовать профиль</label>
+		<label index="general.area">Использовать область профиля</label>
+		<label index="settings">Настройки учётной записи</label>
+		<label index="settings.password">Изменить пароль</label>>
+	</labels>
 </locallang>
