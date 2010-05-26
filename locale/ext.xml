@@ -8,6 +8,7 @@
 		<label index="general.main.tab">Main</label>
 		<label index="general.main.locale">Language</label>
 		<label index="general.main.saved">Settings Saved</label>
+		<label index="general.main.saved.pleaseWait">todoyu has to generate the cache files for your language selection. Lean back for a moment.</label>
 		<label index="general.password.tab">Password</label>
 		<label index="general.password.current">Current Password</label>
 		<label index="general.password.current.empty">Please enter your old password to change it</label>
@@ -26,6 +27,7 @@
 		<label index="general.main.tab">Allgemein</label>
 		<label index="general.main.locale">Sprache</label>
 		<label index="general.main.saved">Einstellungen gespeichert</label>
+		<label index="general.main.saved.pleaseWait">todoyu erstellt gerade neue Cache Dateien für die gewählte Sprache. Lehnen Sie sich einen Moment zurück.</label>		
 		<label index="general.password.tab">Passwort</label>
 		<label index="general.password.current">Aktuelles Passwort</label>
 		<label index="general.password.current.empty">Sie müssen Ihr altes Passwort eingeben, um ein neues zu setzen</label>
