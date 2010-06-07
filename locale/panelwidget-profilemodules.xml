@@ -15,4 +15,7 @@
 	<labels lang="nl_NL">
 		<label index="title">Profielmodules</label>
 	</labels>
+	<labels lang="cs_CZ">
+		<label index="title">Moduly profilu</label>
+	</labels>
 </locallang>
