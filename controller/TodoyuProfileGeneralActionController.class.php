@@ -58,8 +58,6 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 		$locale	= trim($fields['locale']);
 		
 		TodoyuContactPreferences::saveLocale($locale);
-
-		TodoyuDebug::printInFirebug(Todoyu::db()->getLastQuery(), 'last query');
 	}
 
 
