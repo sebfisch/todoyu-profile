@@ -86,7 +86,13 @@ class TodoyuProfileGeneralRenderer {
 
 		$form->setFormData($formData);
 
-		return $form->render();
+		$tmpl	= 'ext/profile/view/general-main.tmpl';
+		$data	= array(
+			'name'	=> Todoyu::person()->getFullName(),
+			'form'	=> $form->render()
+		);
+
+		return render($tmpl, $data);
 	}
 
 
@@ -100,7 +106,12 @@ class TodoyuProfileGeneralRenderer {
 		$xmlPath= 'ext/profile/config/form/general-password.xml';
 		$form	= TodoyuFormManager::getForm($xmlPath);
 
-		return $form->render();
+		$tmpl	= 'ext/profile/view/general-password.tmpl';
+		$data	= array(
+			'form'	=> $form->render()
+		);
+
+		return render($tmpl, $data);
 	}
 
 }
