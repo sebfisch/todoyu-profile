@@ -16,7 +16,7 @@ Todoyu.Ext.profile.General = {
 	 * Handler for tabs in general area
 	 *
 	 * @param	{Event}		event
-	 * @param	{String}		tabKey
+	 * @param	{String}	tabKey
 	 */
 	onTabClick: function(event, tabKey) {
 		this.loadTab(tabKey);
@@ -24,14 +24,19 @@ Todoyu.Ext.profile.General = {
 
 
 
+	/**
+	 * Load given profile tab
+	 *
+	 * @param	{String}	tab
+	 */
 	loadTab: function(tab) {
 		var url		= Todoyu.getUrl('profile', 'general');
 		var options	= {
 			'parameters': {
-				'action': 'tab',
-				'tab': tab
-			},
-			'onComplete': this.onTabLoaded.bind(this, tab)
+				'action':	'tab',
+				'tab':		tab
+			}
+//			'onComplete':	this.onTabLoaded.bind(this, tab)
 		};
 
 		Todoyu.Ui.updateContentBody(url, options);
@@ -39,12 +44,16 @@ Todoyu.Ext.profile.General = {
 
 
 
-	onTabLoaded: function(tab, respone) {
+//	onTabLoaded: function(tab, respone) {
+//
+//	},
 
-	},
 
 
-
+	/**
+	 * @todo	comment
+	 * @param	form
+	 */
 	saveMain: function(form) {
 		form.request({
 			'parameters': {
@@ -56,11 +65,14 @@ Todoyu.Ext.profile.General = {
 
 
 
+	/**
+	 * Notify about profile saving success, have browser reload 
+	 *
+	 * @param	{Ajax.Response}		response
+	 */
 	onMainSaved: function(response) {
 		Todoyu.notifySuccess('[LLL:profile.general.main.saved]');
-
 		Todoyu.LoaderBox.show('[LLL:profile.general.main.saved.pleaseWait]', true);
-
 		setTimeout('location.reload()', 1000);
 	},
 
