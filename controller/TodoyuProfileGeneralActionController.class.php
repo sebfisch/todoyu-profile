@@ -57,7 +57,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 		$fields	= $params['general'];
 		$locale	= trim($fields['locale']);
 
-		TodoyuLocaleManager::setLocaleCookie();
+		TodoyuLocaleManager::setLocaleCookie($locale);
 		TodoyuContactPreferences::saveLocale($locale);
 	}
 
