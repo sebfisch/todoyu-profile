@@ -49,14 +49,15 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
 
 	/**
-	 * Save main form (language)
+	 * Save data of main tab form (language preference) 
 	 *
 	 * @param	Array		$params
 	 */
 	public function saveMainAction(array $params) {
 		$fields	= $params['general'];
 		$locale	= trim($fields['locale']);
-		
+
+		TodoyuLocaleManager::setLocaleCookie();
 		TodoyuContactPreferences::saveLocale($locale);
 	}
 
