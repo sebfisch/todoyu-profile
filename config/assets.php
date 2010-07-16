@@ -42,10 +42,6 @@ Todoyu::$CONFIG['EXT']['profile']['assets'] = array(
 	),
 	'css' => array(
 		array(
-			'file'		=> 'ext/profile/assets/css/global.css',
-			'position'	=> 100
-		),
-		array(
 			'file'		=> 'ext/profile/assets/css/ext.css',
 			'media'		=> 'all',
 			'position'	=> 100
