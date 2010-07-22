@@ -18,6 +18,9 @@
 	<labels lang="cs_CZ">
 		<label index="title">Moduly profilu</label>
 	</labels>
+	<labels lang="sr_RS">
+		<label index="title">Модули налога</label>
+	</labels>
 	<labels lang="ja_JP">
 		<label index="title">プロフィールモジュール</label>
 	</labels>
