@@ -32,7 +32,7 @@ Todoyu.Ext.profile.Headlet.Profile = {
 	 * Initialize
 	 */
 	init: function() {
-		
+
 	},
 
 

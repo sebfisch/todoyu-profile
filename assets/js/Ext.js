@@ -20,7 +20,7 @@
 Todoyu.Ext.profile = {
 
 	PanelWidget: {},
-	
+
 	Headlet: {},
 
 
