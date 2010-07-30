@@ -12,6 +12,9 @@
 	<labels lang="ru_RU">
 		<label index="title">Модули профиля</label>
 	</labels>
+	<labels lang="fr_FR">
+		<label index="title">Modules de profil</label>
+	</labels>
 	<labels lang="nl_NL">
 		<label index="title">Profielmodules</label>
 	</labels>
