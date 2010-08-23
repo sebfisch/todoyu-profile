@@ -19,7 +19,7 @@
 *****************************************************************************/
 
 /**
- * Extension main file for project extension
+ * Extension main file for profile extension
  *
  * @package		Todoyu
  * @subpackage	Project
