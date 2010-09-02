@@ -5,7 +5,7 @@
 		<label index="general.use">Use Profile</label>
 		<label index="general.area">Use Profile Area</label>
 		<label index="settings">Account Settings</label>
-		<label index="settings.password">Change Password</label>>
+		<label index="settings.password">Change Password</label>
 	</labels>
 	<labels lang="de_DE">
 		<label index="general">Allgemeine Einstellungen</label>
@@ -19,21 +19,21 @@
 		<label index="general.use">Usar Perfil</label>
 		<label index="general.area">Utilizar Área da Perfil</label>
 		<label index="settings">Configurações de Conta</label>
-		<label index="settings.password">Alterar a Senha</label>>
+		<label index="settings.password">Alterar a Senha</label>
 	</labels>
 	<labels lang="ru_RU">
 		<label index="general">Общие</label>
 		<label index="general.use">Использовать профиль</label>
 		<label index="general.area">Использовать область профиля</label>
 		<label index="settings">Настройки учётной записи</label>
-		<label index="settings.password">Изменить пароль</label>>
+		<label index="settings.password">Изменить пароль</label>
 	</labels>
 	<labels lang="fr_FR">
 		<label index="general">Paramètres généraux</label>
 		<label index="general.use">Utiliser le profil</label>
 		<label index="general.area">Utiliser la section de profil</label>
 		<label index="settings">Paramètres de compte</label>
-		<label index="settings.password">Changer le mot de passe</label>>
+		<label index="settings.password">Changer le mot de passe</label>
 	</labels>
 	<labels lang="nl_NL">
 		<label index="general">Algemene instellingen</label>
@@ -47,14 +47,14 @@
 		<label index="general.use">Користи налог</label>
 		<label index="general.area">Користи област налог-а</label>
 		<label index="settings">Подешавања корисничког налога </label>
-		<label index="settings.password">Промени лозинку</label>>
+		<label index="settings.password">Промени лозинку</label>
 	</labels>
 	<labels lang="cs_CZ">
 		<label index="general">Obecné nastavení</label>
 		<label index="general.use">Používat profil</label>
 		<label index="general.area">Používat oblast profilu</label>
 		<label index="settings">Nastavení účtu</label>
-		<label index="settings.password">Změnit heslo</label>>
+		<label index="settings.password">Změnit heslo</label>
 	</labels>
 	<labels lang="ja_JP">
 		<label index="general">一般設定</label>
