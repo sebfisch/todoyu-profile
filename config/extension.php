@@ -39,9 +39,11 @@ Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
  * Add general module to profile
  */
 TodoyuProfileManager::addModule('general', array(
+	'position'	=> 0,
 	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
 	'content'	=> 'TodoyuProfileGeneralRenderer::renderContent',
-	'label'		=> 'profile.module.general'
+	'label'		=> 'profile.module.general',
+	'class'		=> 'general'
 ));
 
 ?>

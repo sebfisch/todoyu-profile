@@ -57,7 +57,10 @@ class TodoyuProfileManager {
 	 * @return	Array
 	 */
 	public static function getModules() {
-		return TodoyuArray::assure(Todoyu::$CONFIG['EXT']['profile']['module']);
+		$modules	= TodoyuArray::assure(Todoyu::$CONFIG['EXT']['profile']['module']);
+		$modules	= TodoyuArray::sortByLabel($modules, 'position');
+
+		return $modules;
 	}
 
 }

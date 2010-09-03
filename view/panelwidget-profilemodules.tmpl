@@ -1,6 +1,6 @@
 <ul class="naviList">
 	{foreach $modules module}
-		<li class="general active">
+		<li class="{$module.class} active">
 			<a href="javascript:void(0)" onclick="Todoyu.Ext.profile.loadModule('{$module.name}')">{Label $module.label}</a>
 		</li>
 	{/foreach}
