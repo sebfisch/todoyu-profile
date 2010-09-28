@@ -35,11 +35,12 @@ class TodoyuProfileViewHelper {
 	public static function getLocaleOptions(TodoyuFormElement $field) {
 		$locales	= TodoyuLocaleManager::getLocaleKeys();
 		$options	= array();
+		$default	= Todoyu::$CONFIG['LOCALE']['default'];
 
 		foreach($locales as $locale) {
 			$options[] = array(
 				'value'	=> $locale,
-				'label'	=> Label('locale.' . $locale, $locale) . '&nbsp;&nbsp;<=>&nbsp;&nbsp;' . Label('locale.' . $locale, Todoyu::$CONFIG['LOCALE']['default'])
+				'label'	=> Label('locale.' . $locale, $locale) . '&nbsp;&nbsp;<=>&nbsp;&nbsp;' . Label('locale.' . $locale, $default)
 			);
 		}
 
