@@ -56,8 +56,6 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 	 * @return	String
 	 */
 	public function renderContent() {
-		$content = '';
-
 		$modules	= TodoyuProfileManager::getModules();
 		$active		= TodoyuProfilePreferences::getActiveModule();
 
