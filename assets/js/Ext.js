@@ -17,6 +17,16 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
+/**
+ * @module	Profile
+ */
+
+/**
+ * Profile main object
+ *
+ * @class		profile
+ * @namespace	Todoyu.Ext
+ */
 Todoyu.Ext.profile = {
 
 	PanelWidget: {},
