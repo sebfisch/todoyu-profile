@@ -64,7 +64,7 @@ Todoyu.Ext.profile.General = {
 
 
 
-//	onTabLoaded: function(tab, respone) {
+//	onTabLoaded: function(tab, response) {
 //
 //	},
 
@@ -98,6 +98,11 @@ Todoyu.Ext.profile.General = {
 
 
 
+	/**
+	 * Save password modification form
+	 *
+	 * @param	{Element}	form
+	 */
 	savePassword: function(form) {
 		form.request({
 			'parameters': {
@@ -109,6 +114,11 @@ Todoyu.Ext.profile.General = {
 
 
 
+	/**
+	 * Handler after password change has been saved
+	 *
+	 * @param	{Ajax.Response}		response
+	 */
 	onPasswordSaved: function(response) {
 		if( response.hasTodoyuError() ) {
 			Todoyu.notifyError('[LLL:profile.general.password.error]');
