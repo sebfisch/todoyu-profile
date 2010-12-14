@@ -19,22 +19,30 @@
 *****************************************************************************/
 
 /**
- * Extension main file for profile extension
- *
- * @package		Todoyu
- * @subpackage	Project
+ * Tabs for general area
  */
+Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
+	array(
+		'id'			=> 'main',
+		'label'			=> 'LLL:profile.general.main.tab'
+	),
+	array(
+		'id'			=> 'password',
+		'label'			=> 'LLL:profile.general.password.tab',
+		'require'		=> 'profile.settings:password'
+	)
+);
 
-	// Declare ext ID, path
-define('EXTID_PROFILE', 126);
-define('PATH_EXT_PROFILE', PATH_EXT . '/profile');
 
-	// Register module locales
-TodoyuLabelManager::register('profile', 'profile', 'ext.xml');
-TodoyuLabelManager::register('panelwidget-profilemodules', 'profile', 'panelwidget-profilemodules.xml');
-
-	// Request configurations
-	// @notice	Auto-loaded configs if available: admin, assets, create, contextmenu, extinfo, filters, form, page, panelwidgets, rights, search
-require_once( PATH_EXT_PROFILE . '/config/extension.php' );
+/**
+ * Add general module to profile
+ */
+TodoyuProfileManager::addModule('general', array(
+	'position'	=> 0,
+	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
+	'content'	=> 'TodoyuProfileGeneralRenderer::renderContent',
+	'label'		=> 'profile.module.general',
+	'class'		=> 'general'
+));
 
 ?>

@@ -18,32 +18,12 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
-/**
- * Tabs for general area
- */
-Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
-	array(
-		'id'			=> 'main',
-		'label'			=> 'LLL:profile.general.main.tab'
-	),
-	array(
-		'id'			=> 'password',
-		'label'			=> 'LLL:profile.general.password.tab',
-		'require'		=> 'profile.settings:password'
-	)
-);
+// Declare ext ID, path
+define('EXTID_PROFILE', 126);
+define('PATH_EXT_PROFILE', PATH_EXT . '/profile');
 
-
-
-/**
- * Add general module to profile
- */
-TodoyuProfileManager::addModule('general', array(
-	'position'	=> 0,
-	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
-	'content'	=> 'TodoyuProfileGeneralRenderer::renderContent',
-	'label'		=> 'profile.module.general',
-	'class'		=> 'general'
-));
+// Register module locales
+TodoyuLabelManager::register('profile', 'profile', 'ext.xml');
+TodoyuLabelManager::register('panelwidget-profilemodules', 'profile', 'panelwidget-profilemodules.xml');
 
 ?>
