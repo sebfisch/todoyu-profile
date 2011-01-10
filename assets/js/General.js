@@ -71,7 +71,8 @@ Todoyu.Ext.profile.General = {
 
 
 	/**
-	 * @todo	comment
+	 * Save settings of profile main tab  
+	 *
 	 * @param	form
 	 */
 	saveMain: function(form) {

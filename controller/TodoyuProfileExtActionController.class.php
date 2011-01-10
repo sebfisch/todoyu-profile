@@ -26,6 +26,11 @@
  */
 class TodoyuProfileExtActionController extends TodoyuActionController {
 
+	/**
+	 * Initialize ext action: restrict for authorized users
+	 *
+	 * @param	Array	$params
+	 */
 	public function init(array $params) {
 		restrict('profile', 'general:use');
 	}
