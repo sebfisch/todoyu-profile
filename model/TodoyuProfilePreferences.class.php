@@ -27,7 +27,7 @@
 class TodoyuProfilePreferences {
 
 	/**
-	 * Save a preference for Profile
+	 * Save a preference for profile
 	 *
 	 * @param	String		$preference
 	 * @param	String		$value
@@ -42,7 +42,7 @@ class TodoyuProfilePreferences {
 
 
 	/**
-	 * Get a preference
+	 * Get a profile preference
 	 *
 	 * @param	String		$preference
 	 * @param	Integer		$idItem
@@ -56,7 +56,7 @@ class TodoyuProfilePreferences {
 
 
 	/**
-	 * Get  Profile preference
+	 * Get profile preference
 	 *
 	 * @param	String		$preference
 	 * @param	Integer		$idItem
@@ -71,7 +71,7 @@ class TodoyuProfilePreferences {
 
 
 	/**
-	 * Delete Profile preference
+	 * Delete profile preference
 	 *
 	 * @param	String		$preference
 	 * @param	String		$value
@@ -84,6 +84,12 @@ class TodoyuProfilePreferences {
 	}
 
 
+
+	/**
+	 * Get key of currently active profile module
+	 *
+	 * @return	String
+	 */
 	public static function getActiveModule() {
 		$module	= self::getPref('module');
 
@@ -95,11 +101,23 @@ class TodoyuProfilePreferences {
 	}
 
 
+
+	/**
+	 * Save preference: profile's currently active module
+	 *
+	 * @param	String	$module
+	 */
 	public static function saveActiveModule($module) {
 		self::savePref('module', $module, 0, true);
 	}
 
 
+
+	/**
+	 * Get profile general tab preference
+	 *
+	 * @return	String
+	 */
 	public static function getGeneralTab() {
 		$tab	= self::getPref('tab-general');
 
@@ -111,6 +129,12 @@ class TodoyuProfilePreferences {
 	}
 
 
+
+	/**
+	 * Save profile preference: general tab
+	 *
+	 * @param	String	$tab
+	 */
 	public static function saveGeneralTab($tab) {
 		self::savePref('tab-general', $tab, 0, true);
 	}
