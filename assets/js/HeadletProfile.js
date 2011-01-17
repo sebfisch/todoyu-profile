@@ -40,7 +40,7 @@ Todoyu.Ext.profile.Headlet.Profile = {
 	/**
 	 * Handler for button clicks - redirect to profile
 	 *
-	 * @param	{Object}	event
+	 * @param	{Event}		event
 	 */
 	onButtonClick: function(event) {
 		Todoyu.goTo('profile', 'ext');
