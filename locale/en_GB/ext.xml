@@ -9,7 +9,7 @@
 	<label index="general.main.saved">Settings Saved</label>
 	<label index="general.main.saved.pleaseWait">todoyu has to generate the cache files for your language selection. Lean back for a moment.</label>
 	<label index="general.main.personalConfigOf">Personal Config of</label>
-	<label index="general.password.title">Change own password</label>
+	<label index="general.password.title">Change Own Password</label>
 	<label index="general.password.tab">Password</label>
 	<label index="general.password.current">Current Password</label>
 	<label index="general.password.current.empty">Please enter your old password to change it</label>
