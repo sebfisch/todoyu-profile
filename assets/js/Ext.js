@@ -56,7 +56,7 @@ Todoyu.Ext.profile = {
 
 	/**
 	 *
-	 * @param	 {String}			module
+	 * @param	{String}			module
 	 * @param	{Ajax.Response}		response
 	 */
 	onModuleLoaded: function(module, response) {

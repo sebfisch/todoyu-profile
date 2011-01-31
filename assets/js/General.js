@@ -73,7 +73,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Save settings of profile main tab  
 	 *
-	 * @param	form
+	 * @param	{Element}		form
 	 */
 	saveMain: function(form) {
 		form.request({
