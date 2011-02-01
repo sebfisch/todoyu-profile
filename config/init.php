@@ -18,9 +18,9 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
-/**
- * Tabs for general area
- */
+/* ------------------------------------
+	Tabs for profile > general area
+   ------------------------------------ */
 Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
 	array(
 		'id'			=> 'main',
@@ -34,9 +34,10 @@ Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
 );
 
 
-/**
- * Add general module to profile
- */
+
+/* ------------------------------------
+	Add general module to profile area
+   ------------------------------------ */
 TodoyuProfileManager::addModule('general', array(
 	'position'	=> 0,
 	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
