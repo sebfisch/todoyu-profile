@@ -39,7 +39,7 @@ class TodoyuProfileGeneralRenderer {
 		$tabs		= TodoyuTabManager::getAllowedTabs(Todoyu::$CONFIG['EXT']['profile']['generalTabs']);
 		$active		= $params['tab'];
 
-		if( is_null($active) )	{
+		if( is_null($active) ) {
 			$active = $tabs[0]['id'];
 		}
 
