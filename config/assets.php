@@ -36,6 +36,10 @@ Todoyu::$CONFIG['EXT']['profile']['assets'] = array(
 			'position'	=> 101
 		),
 		array(
+			'file'		=> 'ext/profile/assets/js/PanelWidgetProfileModules.js',
+			'position'	=> 102
+		),
+		array(
 			'file'		=> 'ext/profile/assets/js/HeadletProfile.js',
 			'position'	=> 110
 		)

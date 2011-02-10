@@ -46,6 +46,9 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 		);
 
 		$this->addHasIconClass();
+
+			// Init widget JS (observers)
+		TodoyuPage::addJsOnloadedFunction('Todoyu.Ext.profile.PanelWidget.ProfileModules.init.bind(Todoyu.Ext.profile.PanelWidget.ProfileModules)', 100);
 	}
 
 
@@ -62,7 +65,8 @@ class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements Todoy
 		$tmpl	= 'ext/profile/view/panelwidget-profilemodules.tmpl';
 		$data	= array(
 			'active'	=> $active,
-			'modules'	=> $modules
+			'modules'	=> $modules,
+			'active'	=> 'general'
 		);
 
 		$content= render($tmpl, $data);

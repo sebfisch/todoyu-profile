@@ -54,6 +54,7 @@ Todoyu.Ext.profile = {
 	},
 
 
+
 	/**
 	 *
 	 * @param	{String}			module
