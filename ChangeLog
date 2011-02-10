@@ -1,6 +1,7 @@
 todoyu profile extension changelog
 
 profile 1.1.0 (requires core >= 2.1) - not released yet
+	* Feature: Added module form legends, cleanup and equalization of module content views
 	* Feature: Added highlightning of active module option in profile modules panelwidget
 	* Feature: Added JS for profile modules panelwidget
 	* Feature: Cleanup (topical order and readability) of extension config (init.php) file
