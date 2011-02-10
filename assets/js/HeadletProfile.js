@@ -30,6 +30,8 @@ Todoyu.Ext.profile.Headlet.Profile = {
 
 	/**
 	 * Initialize
+	 *
+	 * @method	init
 	 */
 	init: function() {
 
@@ -40,6 +42,7 @@ Todoyu.Ext.profile.Headlet.Profile = {
 	/**
 	 * Handler for button clicks - redirect to profile
 	 *
+	 * @method	onButtonClick
 	 * @param	{Event}		event
 	 */
 	onButtonClick: function(event) {

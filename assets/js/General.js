@@ -35,6 +35,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Handler for tabs in general area
 	 *
+	 * @method	onTabClick
 	 * @param	{Event}		event
 	 * @param	{String}	tabKey
 	 */
@@ -47,6 +48,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Load given profile tab
 	 *
+	 * @method	loadTab
 	 * @param	{String}	tab
 	 */
 	loadTab: function(tab) {
@@ -73,6 +75,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Save settings of profile main tab  
 	 *
+	 * @method	saveMain
 	 * @param	{Element}		form
 	 */
 	saveMain: function(form) {
@@ -89,6 +92,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Notify about profile saving success, have browser reload 
 	 *
+	 * @method	onMainSaved
 	 * @param	{Ajax.Response}		response
 	 */
 	onMainSaved: function(response) {
@@ -102,6 +106,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Save password modification form
 	 *
+	 * @method	savePassword
 	 * @param	{Element}	form
 	 */
 	savePassword: function(form) {
@@ -118,6 +123,7 @@ Todoyu.Ext.profile.General = {
 	/**
 	 * Handler after password change has been saved
 	 *
+	 * @method	onPasswordSaved
 	 * @param	{Ajax.Response}		response
 	 */
 	onPasswordSaved: function(response) {
