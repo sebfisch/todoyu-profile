@@ -19,4 +19,5 @@
 	<label index="general.password.error">Impossibile cambiare la password</label>
 	<label index="general.password.success">Password modificata</label>
 	<label index="general.password.notEqual">Le due password inserite non coincidono.</label>
+	<label index="general.password.header">Password</label>
 </labels>

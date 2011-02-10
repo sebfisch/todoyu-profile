@@ -16,4 +16,5 @@
 	<label index="general.password.error">Не удалось изменить пароль</label>
 	<label index="general.password.success">Пароль изменён</label>
 	<label index="general.password.notEqual">Пароли не совпадают</label>
+	<label index="general.password.header">Пароль</label>
 </labels>

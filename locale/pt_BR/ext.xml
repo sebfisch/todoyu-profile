@@ -16,4 +16,5 @@
 	<label index="general.password.error">Não foi possível alterar a senha</label>
 	<label index="general.password.success">Senha alterada</label>
 	<label index="general.password.notEqual">A nova senha não confere</label>
+	<label index="general.password.header">Senha</label>
 </labels>

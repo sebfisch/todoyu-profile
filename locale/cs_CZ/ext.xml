@@ -16,4 +16,5 @@
 	<label index="general.password.error">Heslo nelze změnit</label>
 	<label index="general.password.success">Heslo bylo změněno</label>
 	<label index="general.password.notEqual">Nové heslo není stejné</label>
+	<label index="general.password.header">Heslo</label>
 </labels>

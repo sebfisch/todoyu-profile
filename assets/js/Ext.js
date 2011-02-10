@@ -38,6 +38,7 @@ Todoyu.Ext.profile = {
 	/**
 	 * Load given profile module
 	 *
+	 * @method	loadModule
 	 * @param	{String}	module
 	 */
 	loadModule: function(module) {
@@ -56,7 +57,9 @@ Todoyu.Ext.profile = {
 
 
 	/**
+	 * Handler to be called after profile module has been loaded
 	 *
+	 * @method	onModuleLoaded
 	 * @param	{String}			module
 	 * @param	{Ajax.Response}		response
 	 */
@@ -69,6 +72,7 @@ Todoyu.Ext.profile = {
 	/**
 	 * Set body to given HTML content
 	 *
+	 * @method	setContent
 	 * @param	{String}	content
 	 */
 	setContent: function(content) {

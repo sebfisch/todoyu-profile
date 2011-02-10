@@ -16,4 +16,5 @@
 	<label index="general.password.error">Wachtwoord can niet gewijzigd worden</label>
 	<label index="general.password.success">Wachtwoord is gewijzigd</label>
 	<label index="general.password.notEqual">De nieuwe wachtwoorden zijn niet identiek</label>
+	<label index="general.password.header">Wachtwoord</label>
 </labels>

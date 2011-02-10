@@ -19,4 +19,5 @@
 	<label index="general.password.error">Промена лозинке није успела</label>
 	<label index="general.password.success">Лозинке је промењена</label>
 	<label index="general.password.notEqual">Лозинке нису исте</label>
+	<label index="general.password.header">Лозинка</label>
 </labels>

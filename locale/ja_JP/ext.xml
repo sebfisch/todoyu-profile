@@ -16,4 +16,5 @@
 	<label index="general.password.error">パスワードを変更できません</label>
 	<label index="general.password.success">パスワードを変更しました</label>
 	<label index="general.password.notEqual">新しいパスワードは一致しません</label>
+	<label index="general.password.header">パスワード</label>
 </labels>

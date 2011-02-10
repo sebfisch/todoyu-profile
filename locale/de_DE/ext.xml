@@ -8,7 +8,6 @@
 	<label index="general.main.locale">Sprache</label>
 	<label index="general.main.saved">Einstellungen gespeichert</label>
 	<label index="general.main.saved.pleaseWait">todoyu erstellt gerade neue Cache Dateien für die gewählte Sprache. Lehnen Sie sich einen Moment zurück.</label>
-	<label index="general.main.personalConfigOf">Persönliche Einstellungen von</label>
 	<label index="general.password.title">Eigenes Passwort ändern</label>
 	<label index="general.password.tab">Passwort</label>
 	<label index="general.password.current">Aktuelles Passwort</label>
@@ -19,4 +18,6 @@
 	<label index="general.password.error">Passwortänderung fehlgeschlagen</label>
 	<label index="general.password.success">Passwort geändert</label>
 	<label index="general.password.notEqual">Die beiden neuen Passwörter stimmen nicht überein</label>
+	<label index="general.main.header">Persönliche Einstellungen</label>
+	<label index="general.password.header">Passwort</label>
 </labels>

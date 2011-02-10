@@ -8,7 +8,7 @@
 	<fieldsets>
 
 		<fieldset name="left">
-			<legend>Left form column</legend>
+			<legend>Main Profile Settings</legend>
 			<class>left</class>
 			<elements>
 
