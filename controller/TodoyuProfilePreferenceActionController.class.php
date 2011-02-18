@@ -27,6 +27,16 @@
 class TodoyuProfilePreferenceActionController extends TodoyuActionController {
 
 	/**
+	 * @param array $params
+	 * @return void
+	 */
+	public function init(array $params) {
+		restrict('profile', 'general:use');
+	}
+
+
+
+	/**
 	 * General panelWidget action, saves collapse status
 	 *
 	 * @param	Array	$params
