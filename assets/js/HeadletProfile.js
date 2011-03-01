@@ -17,27 +17,7 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
-Todoyu.Ext.profile.Headlet.Profile = {
-
-	/**
-	 * Extension namespace backlink
-	 *
-	 * @var	{Object}	ext
-	 */
-	ext: Todoyu.Ext.profile,
-
-
-
-	/**
-	 * Initialize
-	 *
-	 * @method	init
-	 */
-	init: function() {
-
-	},
-
-
+Todoyu.Ext.profile.Headlet.Profile = Class.create(Todoyu.Headlet, {
 
 	/**
 	 * Handler for button clicks - redirect to profile
@@ -49,4 +29,4 @@ Todoyu.Ext.profile.Headlet.Profile = {
 		Todoyu.goTo('profile', 'ext');
 	}
 
-};
+});
