@@ -19,7 +19,7 @@
 *****************************************************************************/
 
 if( allowed('profile', 'general:use') ) {
-	TodoyuHeadManager::addHeadlet('TodoyuHeadletProfile', 15);
+	TodoyuHeadManager::addHeadlet('TodoyuProfileHeadletProfile', 15);
 }
 
 ?>

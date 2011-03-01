@@ -25,7 +25,7 @@
  * @package		Todoyu
  * @subpackage	Profile
  */
-class TodoyuHeadletProfile extends TodoyuHeadletTypeButton {
+class TodoyuProfileHeadletProfile extends TodoyuHeadletTypeButton {
 
 	/**
 	 * Initialize headlet

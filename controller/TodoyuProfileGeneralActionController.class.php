@@ -53,7 +53,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
 
 	/**
-	 * Save data of main tab form (language preference) 
+	 * Save data of main tab form (language preference)
 	 *
 	 * @param	Array		$params
 	 */
@@ -87,7 +87,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
 			$password	= $data['password_new1'];
 
-			TodoyuPersonManager::updatePassword(personid(), $password, false);
+			TodoyuContactPersonManager::updatePassword(personid(), $password, false);
 		} else {
 			TodoyuHeader::sendTodoyuErrorHeader();
 
