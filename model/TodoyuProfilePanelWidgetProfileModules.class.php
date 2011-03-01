@@ -24,7 +24,7 @@
  * @package		Todoyu
  * @subpackage	Profile
  */
-class TodoyuPanelWidgetProfileModules extends TodoyuPanelWidget implements TodoyuPanelWidgetIf {
+class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget implements TodoyuPanelWidgetIf {
 
 	/**
 	 * Init
