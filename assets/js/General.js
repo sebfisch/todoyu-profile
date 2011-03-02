@@ -73,7 +73,7 @@ Todoyu.Ext.profile.General = {
 
 
 	/**
-	 * Save settings of profile main tab  
+	 * Save settings of profile main tab
 	 *
 	 * @method	saveMain
 	 * @param	{Element}		form
@@ -90,14 +90,14 @@ Todoyu.Ext.profile.General = {
 
 
 	/**
-	 * Notify about profile saving success, have browser reload 
+	 * Notify about profile saving success, have browser reload
 	 *
 	 * @method	onMainSaved
 	 * @param	{Ajax.Response}		response
 	 */
 	onMainSaved: function(response) {
-		Todoyu.notifySuccess('[LLL:profile.general.main.saved]');
-		Todoyu.LoaderBox.show('[LLL:profile.general.main.saved.pleaseWait]', true);
+		Todoyu.notifySuccess('[LLL:profile.ext.general.main.saved]');
+		Todoyu.LoaderBox.show('[LLL:profile.ext.general.main.saved.pleaseWait]', true);
 		setTimeout('location.reload()', 1000);
 	},
 
@@ -128,10 +128,10 @@ Todoyu.Ext.profile.General = {
 	 */
 	onPasswordSaved: function(response) {
 		if( response.hasTodoyuError() ) {
-			Todoyu.notifyError('[LLL:profile.general.password.error]');
+			Todoyu.notifyError('[LLL:profile.ext.general.password.error]');
 			this.ext.setContent(response.responseText);
 		} else {
-			Todoyu.notifySuccess('[LLL:profile.general.password.success]');
+			Todoyu.notifySuccess('[LLL:profile.ext.general.password.success]');
 			this.loadTab('password');
 		}
 	}

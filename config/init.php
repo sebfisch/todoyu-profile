@@ -24,11 +24,11 @@
 Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
 	array(
 		'id'			=> 'main',
-		'label'			=> 'LLL:profile.general.main.tab'
+		'label'			=> 'LLL:profile.ext.general.main.tab'
 	),
 	array(
 		'id'			=> 'password',
-		'label'			=> 'LLL:profile.general.password.tab',
+		'label'			=> 'LLL:profile.ext.general.password.tab',
 		'require'		=> 'profile.settings:password'
 	)
 );
@@ -42,7 +42,7 @@ TodoyuProfileManager::addModule('general', array(
 	'position'	=> 0,
 	'tabs'		=> 'TodoyuProfileGeneralRenderer::renderTabs',
 	'content'	=> 'TodoyuProfileGeneralRenderer::renderContent',
-	'label'		=> 'profile.module.general',
+	'label'		=> 'profile.ext.module.general',
 	'class'		=> 'general'
 ));
 

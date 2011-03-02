@@ -13,7 +13,7 @@
 			<elements>
 
 				<field type="select" name="locale">
-					<label>profile.general.main.locale</label>
+					<label>profile.ext.general.main.locale</label>
 					<source type="function">
 						<function>TodoyuProfileViewHelper::getLocaleOptions</function>
 					</source>

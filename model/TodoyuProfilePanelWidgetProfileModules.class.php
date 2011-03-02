@@ -39,7 +39,7 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget implement
 		parent::__construct(
 			'profile',								// ext key
 			'profilemodules',						// panel widget ID
-			'LLL:panelwidget-profilemodules.title',	// widget title text
+			'LLL:profile.panelwidget-profilemodules.title',	// widget title text
 			$config,								// widget config array
 			$params,								// widget parameters
 			$idArea									// area ID

@@ -55,7 +55,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 			// Init page
 		TodoyuPage::init('ext/profile/view/ext.tmpl');
 
-		$title	= Label('profile.page.title') . ' - ' . Todoyu::person()->getFullName();
+		$title	= Label('profile.ext.page.title') . ' - ' . Todoyu::person()->getFullName();
 
 		TodoyuPage::setTitle($title);
 

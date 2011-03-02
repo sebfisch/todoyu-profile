@@ -40,7 +40,7 @@ class TodoyuProfileViewHelper {
 		foreach($locales as $locale) {
 			$options[] = array(
 				'value'	=> $locale,
-				'label'	=> Label('locale.' . $locale, $locale) . ' <=> ' . Label('locale.' . $locale, $default)
+				'label'	=> Label('core.locale.' . $locale, $locale) . ' <=> ' . Label('core.locale.' . $locale, $default)
 			);
 		}
 
