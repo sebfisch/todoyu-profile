@@ -22,8 +22,4 @@
 define('EXTID_PROFILE', 126);
 define('PATH_EXT_PROFILE', PATH_EXT . '/profile');
 
-// Register module locales
-//TodoyuLabelManager::register('profile', 'profile', 'ext.xml');
-//TodoyuLabelManager::register('panelwidget-profilemodules', 'profile', 'panelwidget-profilemodules.xml');
-
 ?>
