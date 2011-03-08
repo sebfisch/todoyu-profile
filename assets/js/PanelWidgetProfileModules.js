@@ -116,6 +116,7 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 	/**
 	 * Deactivate given module element
 	 *
+	 * @method	deactivateByElement
 	 * @param	{Element}	module
 	 */
 	deactivateByElement: function(module) {
