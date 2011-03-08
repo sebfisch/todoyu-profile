@@ -49,7 +49,6 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 	 * Activate first tab if no tab is selected
 	 *
 	 * @method	activateFirstIfNonActive
-	 * @param	{Element}	list
 	 */
 	activateFirstIfNonActive: function() {
 		if( list.down('li.active') === undefined ) {
@@ -188,7 +187,7 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 	 * Handler when module has been clicked in widget
 	 *
 	 * @method	onClickModule
-	 * @param	{Name}	moduleName
+	 * @param	{String}	moduleName
 	 */
 	onClickModule: function(moduleName) {
 		this.deactivateAll();

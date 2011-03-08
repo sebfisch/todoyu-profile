@@ -17,6 +17,12 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
+/**
+ * Profile headlet object
+ *
+ * @class		Profile
+ * @namespace	Todoyu.Ext.profile.Headlet
+ */
 Todoyu.Ext.profile.Headlet.Profile = Class.create(Todoyu.Headlet, {
 
 	/**
