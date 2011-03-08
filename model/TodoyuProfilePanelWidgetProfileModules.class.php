@@ -24,7 +24,7 @@
  * @package		Todoyu
  * @subpackage	Profile
  */
-class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget implements TodoyuPanelWidgetIf {
+class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 
 	/**
 	 * Init
@@ -69,24 +69,11 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget implement
 			'active'	=> 'general'
 		);
 
-		$content= render($tmpl, $data);
+		return render($tmpl, $data);
 
 		$this->setContent($content);
 
 		return $content;
-	}
-
-
-
-	/**
-	 * Render widget including content
-	 *
-	 * @return	String
-	 */
-	public function render() {
-		$this->renderContent();
-
-		return parent::render();
 	}
 
 
