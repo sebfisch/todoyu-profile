@@ -29,7 +29,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	/**
 	 * Init controller: restrict to rights
 	 *
-	 * @param array $params
+	 * @param	Array	$params
 	 */
 	public function init(array $params) {
 		restrict('profile', 'general:use');
