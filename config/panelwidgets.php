@@ -23,6 +23,6 @@
  */
 
 	// add default panel widgets
-TodoyuPanelWidgetManager::addDefaultPanelWidget('profile', 'TodoyuProfilePanelWidgetProfileModules', 10);
+TodoyuPanelWidgetManager::addPanelWidget('profile', 'profile', 'ProfileModules', 10);
 
 ?>
