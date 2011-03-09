@@ -33,16 +33,13 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 	 * @param	Array		$params
 	 * @param	Integer		$idArea
 	 */
-	public function __construct(array $config, array $params = array(), $idArea = 0) {
-		$idArea	= intval($idArea);
-
+	public function __construct(array $config, array $params = array()) {
 		parent::__construct(
 			'profile',								// ext key
 			'profilemodules',						// panel widget ID
 			'LLL:profile.panelwidget-profilemodules.title',	// widget title text
 			$config,								// widget config array
-			$params,								// widget parameters
-			$idArea									// area ID
+			$params								// widget parameters
 		);
 
 		$this->addHasIconClass();
