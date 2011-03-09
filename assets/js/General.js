@@ -24,9 +24,10 @@
 Todoyu.Ext.profile.General = {
 
 	/**
-	 * Shortcut to extension namespace
+	 * Reference to extension
 	 *
-	 * @var	{Object}	ext
+	 * @property	ext
+	 * @type		Object
 	 */
 	ext: Todoyu.Ext.profile,
 

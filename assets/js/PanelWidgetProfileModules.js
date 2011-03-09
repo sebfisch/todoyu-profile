@@ -23,13 +23,19 @@
 Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 
 	/**
-	 * Extension backlink
+	 * Reference to extension
 	 *
-	 * @var	{Object}	ext
+	 * @property	ext
+	 * @type		Object
 	 */
 	ext:				Todoyu.Ext.profile,
 
+	/**
+	 * @property	list
+	 * @type		Element
+	 */
 	list: null,
+
 
 
 	/**
