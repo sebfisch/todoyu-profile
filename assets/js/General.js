@@ -18,9 +18,12 @@
 *****************************************************************************/
 
 /**
- * General area in profile
+ * @module	Profile
  */
 
+/**
+ * General area in profile
+ */
 Todoyu.Ext.profile.General = {
 
 	/**

@@ -18,6 +18,10 @@
 *****************************************************************************/
 
 /**
+ * @module	Profile
+ */
+
+/**
  *	Panel widget JS: Profile Modules
  */
 Todoyu.Ext.profile.PanelWidget.ProfileModules = {
