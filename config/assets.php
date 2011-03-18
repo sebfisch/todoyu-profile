@@ -28,35 +28,35 @@
 Todoyu::$CONFIG['EXT']['profile']['assets'] = array(
 	'js' => array(
 		array(
-			'file'		=> 'ext/profile/assets/js/Ext.js',
+			'file'		=> 'ext/profile/asset/js/Ext.js',
 			'position'	=> 100
 		),
 		array(
-			'file'		=> 'ext/profile/assets/js/General.js',
+			'file'		=> 'ext/profile/asset/js/General.js',
 			'position'	=> 101
 		),
 		array(
-			'file'		=> 'ext/profile/assets/js/PanelWidgetProfileModules.js',
+			'file'		=> 'ext/profile/asset/js/PanelWidgetProfileModules.js',
 			'position'	=> 102
 		),
 		array(
-			'file'		=> 'ext/profile/assets/js/HeadletProfile.js',
+			'file'		=> 'ext/profile/asset/js/HeadletProfile.js',
 			'position'	=> 110
 		)
 	),
 	'css' => array(
 		array(
-			'file'		=> 'ext/profile/assets/css/ext.css',
+			'file'		=> 'ext/profile/asset/css/ext.css',
 			'media'		=> 'all',
 			'position'	=> 100
 		),
 		array(
-			'file'		=> 'ext/profile/assets/css/panelwidget-profilemodules.css',
+			'file'		=> 'ext/profile/asset/css/panelwidget-profilemodules.css',
 			'media'		=> 'all',
 			'position'	=> 130
 		),
 		array(
-			'file'		=> 'ext/profile/assets/css/headlet-profile.css',
+			'file'		=> 'ext/profile/asset/css/headlet-profile.css',
 			'media'		=> 'all',
 			'position'	=> 110
 		)
