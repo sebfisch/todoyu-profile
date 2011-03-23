@@ -58,11 +58,11 @@ Todoyu.Ext.profile.General = {
 	loadTab: function(tab) {
 		var url		= Todoyu.getUrl('profile', 'general');
 		var options	= {
-			'parameters': {
-				'action':	'tab',
+			parameters: {
+				action:	'tab',
 				'tab':		tab
 			}
-//			'onComplete':	this.onTabLoaded.bind(this, tab)
+//			onComplete:	this.onTabLoaded.bind(this, tab)
 		};
 
 		Todoyu.Ui.updateContentBody(url, options);
@@ -84,10 +84,10 @@ Todoyu.Ext.profile.General = {
 	 */
 	saveMain: function(form) {
 		form.request({
-			'parameters': {
-				'action': 'saveMain'
+			parameters: {
+				action: 'saveMain'
 			},
-			'onComplete': this.onMainSaved.bind(this)
+			onComplete: this.onMainSaved.bind(this)
 		});
 	},
 
@@ -115,10 +115,10 @@ Todoyu.Ext.profile.General = {
 	 */
 	savePassword: function(form) {
 		form.request({
-			'parameters': {
-				'action': 'savePassword'
+			parameters: {
+				action: 'savePassword'
 			},
-			'onComplete': this.onPasswordSaved.bind(this)
+			onComplete: this.onPasswordSaved.bind(this)
 		});
 	},
 

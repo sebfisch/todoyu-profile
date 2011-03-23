@@ -44,11 +44,11 @@ Todoyu.Ext.profile = {
 	loadModule: function(module) {
 		var url		= Todoyu.getUrl('profile', 'ext');
 		var options	= {
-			'parameters': {
-				'action': 'module',
+			parameters: {
+				action: 'module',
 				'module': module
 			},
-			'onComplete': this.onModuleLoaded.bind(this, module)
+			onComplete: this.onModuleLoaded.bind(this, module)
 		};
 
 		Todoyu.Ui.updateContent(url, options);
