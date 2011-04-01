@@ -101,7 +101,13 @@ Todoyu.Ext.profile.General = {
 	 */
 	onMainSaved: function(response) {
 		Todoyu.notifySuccess('[LLL:profile.ext.general.main.saved]');
-		Todoyu.LoaderBox.show('[LLL:profile.ext.general.main.saved.pleaseWait]', true);
+
+		new Todoyu.LoaderBox('profile', {
+			block: 	true,
+			text: 	'[LLL:profile.ext.general.main.saved.pleaseWait]',
+			show:	true
+		});
+
 		setTimeout('location.reload()', 1000);
 	},
 
