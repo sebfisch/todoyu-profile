@@ -67,10 +67,6 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 		);
 
 		return render($tmpl, $data);
-
-		$this->setContent($content);
-
-		return $content;
 	}
 
 
