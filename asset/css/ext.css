@@ -21,3 +21,13 @@ h1.extIconProfile .title {
 #content-tabs .tabkey-password .icon {
 	background:url("../img/icons.png") no-repeat scroll 0 -25px transparent;
 }
+
+
+/* --------------
+	Inner styles
+   -------------- */
+p.profileConfigExplanation {
+	border:1px solid #eee;
+	margin:6px 0;
+	padding:6px 12px 12px 12px;
+}

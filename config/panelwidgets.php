@@ -22,7 +22,7 @@
  * Configure panel widgets to be shown in Profile area
  */
 
-	// add default panel widgets
+	// Add default panel widgets
 TodoyuPanelWidgetManager::addPanelWidget('profile', 'profile', 'ProfileModules', 10);
 
 ?>
