@@ -33,6 +33,7 @@ class TodoyuProfileViewHelper {
 	 * @return	Array
 	 */
 	public static function getLocaleOptions(TodoyuFormElement $field) {
+		TodoyuDebug::printInFireBug($field->getValue());
 		return TodoyuSysmanagerSystemConfigManager::getLocaleOptions();
 	}
 

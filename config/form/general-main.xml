@@ -17,6 +17,7 @@
 					<source type="function">
 						<function>TodoyuProfileViewHelper::getLocaleOptions</function>
 					</source>
+					<noPleaseSelect />
 				</field>
 
 			</elements>
