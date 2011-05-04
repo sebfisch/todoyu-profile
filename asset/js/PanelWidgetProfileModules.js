@@ -171,7 +171,7 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 		var active = this.getActive();
 
 		if( active ) {
-			return active.classNames().toString().replace(' active', '');
+			return active.getClassNames().toString().replace(' active', '');
 		} else {
 			return null;
 		}
