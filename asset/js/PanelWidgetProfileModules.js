@@ -188,7 +188,7 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 		var allModules	= this.getAllModules();
 
 		allModules.each(function(item) {
-    		this.deactivateByElement(item);
+			this.deactivateByElement(item);
 		}.bind(this));
 	},
 
