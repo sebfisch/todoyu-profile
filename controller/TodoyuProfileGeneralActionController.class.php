@@ -32,7 +32,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 * @param	Array	$params
 	 */
 	public function init(array $params) {
-		restrict('profile', 'general:use');
+		Todoyu::restrict('profile', 'general:use');
 	}
 
 
@@ -75,7 +75,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 * @return	String
 	 */
 	public function savePasswordAction(array $params) {
-		restrict('profile', 'settings:password');
+		Todoyu::restrict('profile', 'settings:password');
 
 		$xmlPath= 'ext/profile/config/form/general-password.xml';
 		$form	= TodoyuFormManager::getForm($xmlPath);
@@ -88,7 +88,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 
 			$password	= $data['password_new1'];
 
-			TodoyuContactPersonManager::updatePassword(personid(), $password, false);
+			TodoyuContactPersonManager::updatePassword(Todoyu::personid(), $password, false);
 		} else {
 			TodoyuHeader::sendTodoyuErrorHeader();
 

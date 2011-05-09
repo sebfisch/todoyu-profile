@@ -92,7 +92,7 @@ class TodoyuProfileGeneralRenderer {
 			'form'	=> $form->render()
 		);
 
-		return render($tmpl, $data);
+		return Todoyu::render($tmpl, $data);
 	}
 
 
@@ -111,7 +111,7 @@ class TodoyuProfileGeneralRenderer {
 			'form'	=> $form->render()
 		);
 
-		return render($tmpl, $data);
+		return Todoyu::render($tmpl, $data);
 	}
 
 }

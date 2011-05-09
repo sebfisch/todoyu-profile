@@ -66,7 +66,7 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 			'active'	=> 'general'
 		);
 
-		return render($tmpl, $data);
+		return Todoyu::render($tmpl, $data);
 	}
 
 
@@ -77,7 +77,7 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 	 * @return	Boolean
 	 */
 	public static function isAllowed() {
-		return allowed('profile', 'general:use');
+		return Todoyu::allowed('profile', 'general:use');
 	}
 
 }

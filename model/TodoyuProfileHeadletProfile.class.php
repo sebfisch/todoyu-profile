@@ -43,7 +43,7 @@ class TodoyuProfileHeadletProfile extends TodoyuHeadletTypeButton {
 	 * @return	String
 	 */
 	public function getLabel() {
-		return Label('profile.ext.headlet.label') . ': ' . Todoyu::person()->getFullName();
+		return Todoyu::Label('profile.ext.headlet.label') . ': ' . Todoyu::person()->getFullName();
 	}
 
 }

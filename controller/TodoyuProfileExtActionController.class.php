@@ -32,7 +32,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 	 * @param	Array	$params
 	 */
 	public function init(array $params) {
-		restrict('profile', 'general:use');
+		Todoyu::restrict('profile', 'general:use');
 	}
 
 
@@ -55,7 +55,7 @@ class TodoyuProfileExtActionController extends TodoyuActionController {
 			// Init page
 		TodoyuPage::init('ext/profile/view/ext.tmpl');
 
-		$title	= Label('profile.ext.page.title') . ' - ' . Todoyu::person()->getFullName();
+		$title	= Todoyu::Label('profile.ext.page.title') . ' - ' . Todoyu::person()->getFullName();
 
 		TodoyuPage::setTitle($title);
 

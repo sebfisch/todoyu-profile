@@ -18,7 +18,7 @@
 * This copyright notice MUST APPEAR in all copies of the script.
 *****************************************************************************/
 
-if( allowed('profile', 'general:use') ) {
+if( Todoyu::allowed('profile', 'general:use') ) {
 	TodoyuHeadManager::addHeadlet('TodoyuProfileHeadletProfile', 15);
 }
 

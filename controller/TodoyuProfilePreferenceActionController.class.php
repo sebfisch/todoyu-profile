@@ -32,7 +32,7 @@ class TodoyuProfilePreferenceActionController extends TodoyuActionController {
 	 * @param	Array	$params
 	 */
 	public function init(array $params) {
-		restrict('profile', 'general:use');
+		Todoyu::restrict('profile', 'general:use');
 	}
 
 
