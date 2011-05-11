@@ -7,7 +7,7 @@
 	<label index="general.main.tab">Општи</label>
 	<label index="general.main.locale">Језик</label>
 	<label index="general.main.saved">Подешавања су сачувана</label>
-	<label index="general.main.saved.pleaseWait">todoyu управо генерише кеш фајлофе за изабрани језик. Опустите се за тренутак. </label>
+	<label index="general.main.saved.pleaseWait">todoyu управо генерише кеш фајлофе за изабрани језик. Опустите се за тренутак.</label>
 	<label index="general.main.personalConfigOf">Лична подешавања од</label>
 	<label index="general.password.title">Промени своју лозинку</label>
 	<label index="general.password.tab">Лозинка</label>
