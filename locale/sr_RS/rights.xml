@@ -2,7 +2,6 @@
 <labels>
 	<label index="general">Општа подешавања</label>
 	<label index="general.use">Употреби налог</label>
-	<label index="general.area">Употреби област налог-а</label>
 	<label index="settings">Подешавања корисничког налога</label>
 	<label index="settings.password">Промени лозинку</label>
 </labels>

@@ -2,7 +2,6 @@
 <labels>
 	<label index="general">Impostazioni generali</label>
 	<label index="general.use">Usa profilo</label>
-	<label index="general.area">Usa area profilo</label>
 	<label index="settings">Impostazioni utente</label>
 	<label index="settings.password">Cambia password</label>
 </labels>
