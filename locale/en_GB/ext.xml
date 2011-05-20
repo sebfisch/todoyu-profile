@@ -18,7 +18,6 @@
 	<label index="general.password.error">Can't Change Password</label>
 	<label index="general.password.success">Password Changed</label>
 	<label index="general.password.notEqual">The new passwords do not match</label>
-	<label index="general.password.notEqual">The new passwords do not match</label>
 	<label index="general.main.header">Personal Configuration</label>
 	<label index="general.password.header">Password</label>
 </labels>
