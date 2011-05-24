@@ -45,7 +45,7 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 		$this->addHasIconClass();
 
 			// Init widget JS (observers)
-		TodoyuPage::addJsOnloadedFunction('Todoyu.Ext.profile.PanelWidget.ProfileModules.init.bind(Todoyu.Ext.profile.PanelWidget.ProfileModules)', 100);
+		TodoyuPage::addJsOnloadedFunction('Todoyu.Ext.profile.PanelWidget.ProfileModules.init', 100, true);
 	}
 
 
