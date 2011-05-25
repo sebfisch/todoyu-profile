@@ -31,7 +31,6 @@ class TodoyuProfilePanelWidgetProfileModules extends TodoyuPanelWidget {
 	 *
 	 * @param	Array		$config
 	 * @param	Array		$params
-	 * @param	Integer		$idArea
 	 */
 	public function __construct(array $config, array $params = array()) {
 		parent::__construct(
