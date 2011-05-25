@@ -14,12 +14,12 @@ h1.extIconProfile .title {
 /* --------------
 	Tab icons
    -------------- */
-#content-tabs .tabkey-main .icon {
-	background:url("../img/icons.png") no-repeat scroll 0 6px transparent;
+#profile-general-tabs .tabkey-main .icon {
+	background:url("../img/icons.png") no-repeat 0 6px;
 }
 
-#content-tabs .tabkey-password .icon {
-	background:url("../img/icons.png") no-repeat scroll 0 -25px transparent;
+#profile-general-tabs .tabkey-password .icon {
+	background:url("../img/icons.png") no-repeat 0 -25px;
 }
 
 
