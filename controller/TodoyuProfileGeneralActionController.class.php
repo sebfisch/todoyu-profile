@@ -72,7 +72,7 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 * Save password form
 	 *
 	 * @param	Array		$params
-	 * @return	String
+	 * @return	Void|String				Failure returns re-rendered form with error messages
 	 */
 	public function savePasswordAction(array $params) {
 		Todoyu::restrict('profile', 'settings:password');
