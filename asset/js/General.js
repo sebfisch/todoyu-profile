@@ -62,17 +62,10 @@ Todoyu.Ext.profile.General = {
 				action:	'tab',
 				'tab':		tab
 			}
-//			onComplete:	this.onTabLoaded.bind(this, tab)
 		};
 
 		Todoyu.Ui.updateContentBody(url, options);
 	},
-
-
-
-//	onTabLoaded: function(tab, response) {
-//
-//	},
 
 
 
