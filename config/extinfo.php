@@ -38,7 +38,8 @@ Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 		),
 		'conflicts' => array(),
 		'system'	=> true
-	)
+	),
+	'urlDocumentation'	=> 'http://doc.todoyu.com/?profile'
 );
 
 ?>
