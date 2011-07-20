@@ -130,11 +130,13 @@ Todoyu.Ext.profile.General = {
 	 * @param	{Ajax.Response}		response
 	 */
 	onPasswordSaved: function(response) {
+		var notificationIdentifier	= 'profile.password.saved';
+
 		if( response.hasTodoyuError() ) {
-			Todoyu.notifyError('[LLL:profile.ext.general.password.error]');
+			Todoyu.notifyError('[LLL:profile.ext.general.password.error]', notificationIdentifier);
 			this.ext.setContent(response.responseText);
 		} else {
-			Todoyu.notifySuccess('[LLL:profile.ext.general.password.success]');
+			Todoyu.notifySuccess('[LLL:profile.ext.general.password.success]', notificationIdentifier);
 			this.loadTab('password');
 		}
 	}
