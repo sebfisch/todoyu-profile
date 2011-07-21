@@ -35,7 +35,6 @@ Todoyu.Ext.profile = {
 	 */
 	PanelWidget: {},
 
-
 	/**
 	 * @property	Headlet
 	 * @type		Object
