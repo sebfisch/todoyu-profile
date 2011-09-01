@@ -27,7 +27,9 @@
 class TodoyuProfileRenderer {
 
 	/**
-	 * @var string		Extension key
+	 * Extension key
+	 *
+	 * @var string
 	 */
 	const EXTKEY = 'profile';
 
