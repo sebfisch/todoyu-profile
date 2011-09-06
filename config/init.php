@@ -24,11 +24,11 @@
 Todoyu::$CONFIG['EXT']['profile']['generalTabs'] = array(
 	array(
 		'id'			=> 'main',
-		'label'			=> 'LLL:profile.ext.general.main.tab'
+		'label'			=> 'profile.ext.general.main.tab'
 	),
 	array(
 		'id'			=> 'password',
-		'label'			=> 'LLL:profile.ext.general.password.tab',
+		'label'			=> 'profile.ext.general.password.tab',
 		'require'		=> 'profile.settings:password'
 	)
 );
