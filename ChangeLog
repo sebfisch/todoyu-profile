@@ -1,5 +1,9 @@
 todoyu profile extension changelog
 
+profile 1.1.1 - 2011-09-15
+	* Minor cleanups
+	* Added: Notification identifier for saved password in profile
+
 profile 1.1.0 - 2011-06-17
 	* Feature: Added module form legends, cleanup and equalization of module content views
 	* Feature: Added highlighting of active module option in profile modules panelwidget
