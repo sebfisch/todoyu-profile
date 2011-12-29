@@ -85,6 +85,29 @@ Todoyu.Ext.profile = {
 	 */
 	setContent: function(content) {
 		Todoyu.Ui.setContentBody(content);
+	},
+
+
+
+	/**
+	 * Remove class names and messages of form errors form profile form
+	 *
+	 * Different to other forms, the profile stays open after being saved,
+	 * therefor (when validating the form) error messages must be removed after successful saving.
+	 *
+	 * @method	removeFormErrors
+	 */
+	removeFormErrors: function() {
+		var body	= $('content-body');
+
+			// Remove error class names
+		body.select('.error').each(function(element){
+			element.removeClassName('error');
+		});
+			// Remove error messages
+		body.select('.errorMessage').each(function(element){
+			element.remove();
+		});
 	}
 
 };
