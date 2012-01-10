@@ -24,19 +24,19 @@
 
 Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'title'			=> 'Person Profile Settings',
-	'description' 	=> 'Edit Person Profile (language/locale, password, etc.)',
-	'author' 		=> array(
+	'description'	=> 'Edit Person Profile (language/locale, password, etc.)',
+	'author'		=> array(
 		'name'		=> 'todoyu Core Developer Team',
 		'email'		=> 'team@todoyu.com',
 		'company'	=> 'snowflake productions GmbH, Zurich'
 	),
-	'state' 		=> 'stable',
-	'version' 		=> '1.1.2',
-	'constraints' 	=> array(
+	'state'			=> 'stable',
+	'version'		=> '1.1.2',
+	'constraints'	=> array(
 		'depends' => array(
-			'contact' => '1.1.0'
+			'contact'	=> '1.1.0'
 		),
-		'conflicts' => array(),
+		'conflicts'	=> array(),
 		'system'	=> true
 	),
 	'urlDocumentation'	=> 'http://doc.todoyu.com/?profile'
