@@ -3,15 +3,12 @@ todoyu profile extension changelog
 profile 1.1.3 - not released yet
 	* Added: Removal of error classnames and messages from afore invalid re-validated profile fields
 
-
 profile 1.1.2 - 2011-11-17
 	* Translation: Polish
-
 
 profile 1.1.1 - 2011-09-15
 	* Minor cleanups
 	* Added: Notification identifier for saved password in profile
-
 
 profile 1.1.0 - 2011-06-17
 	* Feature: Added module form legends, cleanup and equalization of module content views
@@ -21,12 +18,9 @@ profile 1.1.0 - 2011-06-17
 	* Changed: Structure for 2.1
 	* Changed: All classes are prefixed with extension name
 
-
 profile 1.0.6 - 2011-01-17
  	* Feature: Added placeholders for to-be spanish locale files
 
-
 profile 1.0.1 to 1.0.4 - 1.0.4 released 2011-01-17
-
 
 profile 1.0.0 - released 2010-05-10
