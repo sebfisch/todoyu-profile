@@ -60,7 +60,7 @@ Todoyu.Ext.profile.General = {
 		var options	= {
 			parameters: {
 				action:	'tab',
-				'tab':		tab
+				tab:	tab
 			}
 		};
 

@@ -54,7 +54,7 @@ Todoyu.Ext.profile = {
 		var options	= {
 			parameters: {
 				action: 'module',
-				'module': module
+				module: module
 			},
 			onComplete: this.onModuleLoaded.bind(this, module)
 		};
