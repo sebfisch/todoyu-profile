@@ -96,7 +96,7 @@ class TodoyuProfilePreferences {
 	public static function getActiveModule() {
 		$module	= self::getPref('module');
 
-		if( $module === false ) {
+		if( !$module ) {
 			$module = 'general';
 		}
 
@@ -124,7 +124,7 @@ class TodoyuProfilePreferences {
 	public static function getGeneralTab() {
 		$tab	= self::getPref('tab-general');
 
-		if( $tab === false ) {
+		if( !$tab ) {
 			$tab = 'main';
 		}
 
