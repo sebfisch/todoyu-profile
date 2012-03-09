@@ -141,7 +141,7 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 	 * Get all module elements
 	 *
 	 * @method	getAllModules
-	 * @return	{Array}
+	 * @return	{Element[]}
 	 */
 	getAllModules: function() {
 		return $$('#' + this.list.id + ' li');
