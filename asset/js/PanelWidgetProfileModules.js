@@ -61,8 +61,8 @@ Todoyu.Ext.profile.PanelWidget.ProfileModules = {
 	 * @method	activateFirstIfNonActive
 	 */
 	activateFirstIfNonActive: function() {
-		if( list.down('li.active') === undefined ) {
-			this.setActive(list.down('li'));
+		if( this.list.down('li.active') ) {
+			this.setActiveByElement(this.list.down('li'));
 		}
 	},
 
