@@ -1,7 +1,7 @@
 todoyu profile extension changelog
 
-profile 1.1.3 - not released yet
-	* Added: Removal of error classnames and messages from afore invalid re-validated profile fields
+profile 1.2.0 - not released yet
+	* Adapted to core 2.2
 
 profile 1.1.2 - 2011-11-17
 	* Translation: Polish
