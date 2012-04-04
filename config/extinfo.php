@@ -33,7 +33,8 @@ Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'state'			=> 'stable',
 	'version'		=> '1.2.0b',
 	'constraints'	=> array(
-		'depends' => array(
+		'core'		=> '2.2.0b',
+		'depends' 	=> array(
 			'contact'	=> '1.2.0b'
 		),
 		'system'	=> true
