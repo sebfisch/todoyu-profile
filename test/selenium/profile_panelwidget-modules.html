@@ -23,7 +23,7 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>link=Personal Data</td>
+	<td>link=My Personal Data</td>
 	<td></td>
 </tr>
 <!--test toggling, incl. pref-->
@@ -69,7 +69,7 @@
 </tr>
 <tr>
 	<td>assertExpression</td>
-	<td>javascript{storedVars['widgetHeight'] &lt; 40}</td>
+	<td>javascript{storedVars['widgetHeight'] &lt; 45}</td>
 	<td>true</td>
 </tr>
 <tr>
@@ -141,200 +141,6 @@
 	<td>assertExpression</td>
 	<td>javascript{storedVars['widgetHeight'] &gt; 130}</td>
 	<td>true</td>
-</tr>
-<!--check module: "general settings"-->
-<tr>
-	<td>click</td>
-	<td>link=General Settings</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>100</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForCondition</td>
-	<td>selenium.browserbot.getUserWindow().Ajax.activeRequestCount == 0</td>
-	<td>10000</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//p[@id='profile-general-tab-main-label']/span[3]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//p[@id='profile-general-tab-password-label']/span[3]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertTextPresent</td>
-	<td>Language</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>general-0-field-locale</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>general-0-field-save</td>
-	<td></td>
-</tr>
-<!--check module: "personal data"-->
-<tr>
-	<td>click</td>
-	<td>link=Personal Data</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>100</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForCondition</td>
-	<td>selenium.browserbot.getUserWindow().Ajax.activeRequestCount == 0</td>
-	<td>10000</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//p[@id='contact-tab-contact-label']/span[3]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-email</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-salutation</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-lastname</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-firstname</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-shortname</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-birthday</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-comment</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-upload</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>add-record</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//button[@id='add-record' and @type='button' and @onclick=&quot;Todoyu.Form.addRecord(1, 'person', 'address', 'contact', 'person');this.blur()&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>expand-all</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//button[@id='add-record' and @type='button' and @onclick=&quot;Todoyu.Form.addRecord(1, 'person', 'company', 'contact', 'person');this.blur()&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//button[@id='expand-all' and @type='button' and @onclick=&quot;Todoyu.Form.toggleForeignRecords(['company']);this.blur()&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>person-1-field-save</td>
-	<td></td>
-</tr>
-<!--remove values of required fields and try saving-->
-<tr>
-	<td>type</td>
-	<td>css=input#person-1-field-email.text</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>css=input#person-1-field-lastname.text</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>css=input#person-1-field-firstname.text</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=button#person-1-field-save.button</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>500</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertTextPresent</td>
-	<td>Saving Person Failed</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertTextPresent</td>
-	<td>The value entered is not valid</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=div#formElement-person-1-field-email.error</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=div#formElement-person-1-field-lastname.error</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>css=div#formElement-person-1-field-firstname.error</td>
-	<td></td>
-</tr>
-<!--reopen module "general settings"-->
-<tr>
-	<td>click</td>
-	<td>link=General Settings</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td>100</td>
-	<td></td>
 </tr>
 </tbody></table>
 </body>
