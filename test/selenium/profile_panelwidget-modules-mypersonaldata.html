@@ -14,7 +14,7 @@
 <!--check module: "personal data"-->
 <tr>
 	<td>click</td>
-	<td>link=Personal Data</td>
+	<td>link=My Personal Data</td>
 	<td></td>
 </tr>
 <tr>
@@ -29,17 +29,17 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//p[@id='contact-tab-contact-label']/span[3]</td>
+	<td>//p[@id='contact-tab-contact-label']/span[2]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>person-1-field-email</td>
+	<td>//input[@id=&quot;person-1-field-salutation-m&quot;]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>person-1-field-salutation</td>
+	<td>//input[@id=&quot;person-1-field-salutation-w&quot;]</td>
 	<td></td>
 </tr>
 <tr>
@@ -89,16 +89,6 @@
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//button[@id='add-record' and @type='button' and @onclick=&quot;Todoyu.Form.addRecord(1, 'person', 'company', 'contact', 'person');this.blur()&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//button[@id='expand-all' and @type='button' and @onclick=&quot;Todoyu.Form.toggleForeignRecords(['company']);this.blur()&quot;]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
 	<td>person-1-field-save</td>
 	<td></td>
 </tr>
@@ -128,6 +118,7 @@
 	<td>500</td>
 	<td></td>
 </tr>
+<!--Saving failed?-->
 <tr>
 	<td>assertTextPresent</td>
 	<td>Saving Person Failed</td>
@@ -164,7 +155,6 @@
 	<td>100</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
