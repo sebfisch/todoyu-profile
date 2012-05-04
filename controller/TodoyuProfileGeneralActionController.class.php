@@ -59,8 +59,12 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 	 * @param	Array		$params
 	 */
 	public function saveMainAction(array $params) {
-		$fields	= $params['general'];
-		$locale	= trim($fields['locale']);
+		$formData	= TodoyuArray::assure($params['general']);
+		$xmlPath	= 'ext/profile/config/form/general-main.xml';
+		$form		= TodoyuFormManager::getForm($xmlPath);
+		$data		= $form->getStorageData($formData);
+		$data		= TodoyuFormHook::callSaveData($xmlPath, $data, 0);
+		$locale		= trim($data['locale']);
 
 		TodoyuLocaleManager::setLocaleCookie($locale);
 		TodoyuContactPreferences::saveLocale($locale);
@@ -89,6 +93,8 @@ class TodoyuProfileGeneralActionController extends TodoyuActionController {
 			$password	= $data['password_new1'];
 
 			TodoyuContactPersonManager::updatePassword(Todoyu::personid(), $password, false);
+
+			return '';
 		} else {
 			TodoyuHeader::sendTodoyuErrorHeader();
 
