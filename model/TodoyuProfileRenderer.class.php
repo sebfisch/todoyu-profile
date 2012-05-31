@@ -54,9 +54,9 @@ class TodoyuProfileRenderer {
 	 * @return	String
 	 */
 	public static function renderContent($module, array $params) {
-		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
+		$configuration	= TodoyuProfileManager::getModuleConfig($module);
 
-		return TodoyuFunction::callUserFunction($moduleConf['content'], $params);
+		return TodoyuFunction::callUserFunction($configuration['content'], $params);
 	}
 
 
@@ -69,9 +69,9 @@ class TodoyuProfileRenderer {
 	 * @return	String
 	 */
 	public static function renderTabs($module, array $params = array()) {
-		$moduleConf	= TodoyuProfileManager::getModuleConfig($module);
+		$configuration	= TodoyuProfileManager::getModuleConfig($module);
 
-		return TodoyuFunction::callUserFunction($moduleConf['tabs'], $params);
+		return TodoyuFunction::callUserFunction($configuration['tabs'], $params);
 	}
 
 }
