@@ -1,3 +1,7 @@
+@import "../../../../core/config/theme.scss";
+
+
+
 /* ----------------------------------------------
 	Extension icon: stand-alone and in heading
    ---------------------------------------------- */
@@ -28,7 +32,7 @@ h1.extIconProfile .title {
 	Inner styles
    -------------- */
 p.profileConfigExplanation {
-	border:1px solid #eee;
+	border:1px solid $colorNeutral01;
 	margin:6px 0;
 	padding:6px 12px 12px 12px;
 }
