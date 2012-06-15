@@ -51,12 +51,12 @@ Todoyu::$CONFIG['EXT']['profile']['assets'] = array(
 			'position'	=> 100
 		),
 		array(
-			'file'		=> 'ext/profile/asset/css/panelwidget-profilemodules.css',
+			'file'		=> 'ext/profile/asset/css/panelwidget-profilemodules.scss',
 			'media'		=> 'all',
 			'position'	=> 130
 		),
 		array(
-			'file'		=> 'ext/profile/asset/css/headlet-profile.css',
+			'file'		=> 'ext/profile/asset/css/headlet-profile.scss',
 			'media'		=> 'all',
 			'position'	=> 110
 		)
