@@ -31,13 +31,13 @@ Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 		'company'	=> 'snowflake productions GmbH, Zurich'
 	),
 	'state'			=> 'stable',
-	'version'		=> '1.2.0',
+	'version'		=> '1.2.1',
 	'constraints'	=> array(
-		'core'		=> '2.2.0',
+		'core'		=> '2.2.1',
+		'system'	=> true,
 		'depends' 	=> array(
 			'contact'	=> '1.2.0'
-		),
-		'system'	=> true
+		)
 	),
 	'urlDocumentation'	=> 'http://doc.todoyu.com/?profile'
 );

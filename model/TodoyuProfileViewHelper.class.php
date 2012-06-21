@@ -31,6 +31,7 @@ class TodoyuProfileViewHelper {
 	 *
 	 * @param	TodoyuFormElement	$field
 	 * @return	Array
+	 * @deprecated
 	 */
 	public static function getLocaleOptions(TodoyuFormElement $field) {
 		return TodoyuSysmanagerSystemConfigManager::getLocaleOptions();

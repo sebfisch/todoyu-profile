@@ -1,5 +1,9 @@
 todoyu profile extension changelog
 
+profile 1.2.1 - not released yet
+	* Require: todoyu 2.2.1
+	* Changed: Press CTRL when click in the profile headlet to open it in a new window/tab
+
 profile 1.2.0 - 2012-05-03
 	* Adapted to core 2.2
 

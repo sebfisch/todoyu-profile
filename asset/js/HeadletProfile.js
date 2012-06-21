@@ -36,7 +36,7 @@ Todoyu.Ext.profile.Headlet.Profile = Class.create(Todoyu.Headlet, {
 	 * @param	{Event}		event
 	 */
 	onButtonClick: function(event) {
-		Todoyu.goTo('profile', 'ext');
+		Todoyu.goTo('profile', '', {}, '', !!event.ctrlKey);
 	}
 
 });
