@@ -17,7 +17,7 @@
 				<field type="select" name="locale">
 					<label>profile.ext.general.main.locale</label>
 					<source type="function">
-						<function>TodoyuViewHelper::getLocaleOptions</function>
+						<function>TodoyuViewHelper::getAvailableLocaleOptions</function>
 					</source>
 					<noPleaseSelect />
 				</field>
