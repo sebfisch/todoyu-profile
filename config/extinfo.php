@@ -33,10 +33,10 @@ Todoyu::$CONFIG['EXT']['profile']['info'] = array(
 	'state'			=> 'stable',
 	'version'		=> '1.3.0',
 	'constraints'	=> array(
-		'core'		=> '2.3.0b1',
+		'core'		=> '2.3.0',
 		'system'	=> true,
 		'depends' 	=> array(
-			'contact'	=> '1.2.0'
+			'contact'	=> '1.3.0'
 		)
 	),
 	'urlDocumentation'	=> 'http://doc.todoyu.com/?profile'
