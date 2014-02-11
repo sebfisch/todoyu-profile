@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<label index="ext.title">Pengaturan Personal</label>
+	<label index="page.title">Profile Saya</label>
+	<label index="headlet.label">Pengaturan Saya</label>
+	<label index="module.general">Pengatuaran Umum</label>
+	<label index="general.main.tab">Utama</label>
+	<label index="general.main.locale">Bahasa</label>
+	<label index="general.main.saved">Pengaturan Tersimpan</label>
+	<label index="general.main.saved.pleaseWait">todoyu harus menghasilkan berkas cache untuk pilihan bahasa Anda. Tunggulah sejenak.</label>
+	<label index="general.password.title">Ganti Sendiri Sandi</label>
+	<label index="general.password.tab">Sandi</label>
+	<label index="general.password.current">Sandi Sekarang</label>
+	<label index="general.password.current.empty">Masukkan sandi lama Anda untuk mengubahnya</label>
+	<label index="general.password.current.wrong">Password lama Anda masukkan salah</label>
+	<label index="general.password.new1">Sandi Baru</label>
+	<label index="general.password.new2">Ulang Sandi</label>
+	<label index="general.password.error">Tidak Bisa Mengubah Sandi</label>
+	<label index="general.password.success">Sandi diubah</label>
+	<label index="general.password.notEqual">Sandi baru tidak sesuai</label>
+	<label index="general.main.header">Konfigurasi Personal</label>
+	<label index="general.password.header">Sandi</label>
+</labels>
